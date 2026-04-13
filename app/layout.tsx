@@ -9,7 +9,7 @@ import "@/styles/globals.css";
 export const metadata: Metadata = buildMetadata({
   title: "Bilimsel Fitness Ekosistemi",
   description:
-    "Bilim ve Fitness; bilimsel netlik, test, sistem, yazi, kitap ve uygulama katmanlariyla kurulan premium fitness ekosistemidir.",
+    "Bilim ve Fitness; bilimsel netlik, test, sistem, yazı, kitap ve uygulama katmanlarıyla kurulan premium fitness ekosistemidir.",
   path: "/",
   keywords: [
     "bilimsel fitness",
@@ -17,7 +17,7 @@ export const metadata: Metadata = buildMetadata({
     "fitness testi",
     "antrenman bilimi",
     "toparlanma",
-    "sureklilik",
+    "süreklilik",
   ],
   category: "fitness",
 });

@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Bilimsel Fitness Ekosistemi",
   description:
-    "Bilim ve Fitness ana sayfasi; markayi net tanimlayan, siradan fitness algisini kiran ve kullaniciyi dogrudan test akisina iten kontrollu giris merkezidir.",
+    "Bilim ve Fitness ana sayfası; markayı net tanımlayan, sıradan fitness algısını kıran ve kullanıcıyı doğrudan test akışına iten kontrollü giriş merkezidir.",
   path: "/",
   keywords: [
     "bilimsel fitness",
@@ -26,25 +26,25 @@ export default function HomePage() {
         <div className="surface-grid grid gap-8 rounded-[2.5rem] border border-line/10 bg-white/72 px-6 py-14 shadow-panel sm:px-9 lg:grid-cols-[1.35fr,0.78fr] lg:px-14 lg:py-18">
           <HeadingSystem
             eyebrow="Bilim ve Fitness"
-            title="Bilimsel fitness icin kurulan net yon merkezi."
-            description="Bu marka yalnizca fitness icerigi yayinlamaz. Durumu tanimlar, sonraki adimi belirler ve tum ekosistemi ayni sistem mantiginda kurar."
+            title="Bilimsel fitness için kurulan net yön merkezi."
+            description="Bu marka yalnızca fitness içeriği yayınlamaz. Durumu tanımlar, sonraki adımı belirler ve tüm ekosistemi aynı sistem mantığında kurar."
             as="h1"
           >
             <CtaCluster
               primary={{ href: "/test", label: "Teste Gir" }}
               secondary={{ href: "/sistem", label: "Sistemi Oku", tone: "secondary" }}
-              hint="Ilk adim tek: durumunu tanimla."
+              hint="İlk adım tek: durumunu tanımla."
             />
           </HeadingSystem>
           <div className="rounded-[2rem] border border-line/10 bg-ink p-7 text-white">
-            <p className="text-xs uppercase tracking-[0.24em] text-white/56">Ilk komut</p>
+            <p className="text-xs uppercase tracking-[0.24em] text-white/56">İlk komut</p>
             <p className="mt-4 font-display text-3xl leading-tight">
-              Siradan fitness anlatisini birak. Once yerini gor.
+              Sıradan fitness anlatısını bırak. Önce yerini gör.
             </p>
             <ul className="mt-6 space-y-3 text-sm leading-7 text-white/72">
-              <li>Bilgi degil, netlik onceliklenir.</li>
-              <li>Test, kitap ve uygulama tek sistemde konumlanir.</li>
-              <li>Karar yukunu sistem tasir.</li>
+              <li>Bilgi değil, netlik önceliklenir.</li>
+              <li>Test, kitap ve uygulama tek sistemde konumlanır.</li>
+              <li>Karar yükünü sistem taşır.</li>
             </ul>
           </div>
         </div>
@@ -54,22 +54,22 @@ export default function HomePage() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr,1.05fr]">
           <HeadingSystem
             eyebrow="Problem"
-            title="Asil eksik bilgi degil, sistemdir."
-            description="Ilerleme durur cunku kullanici once hangi sorunu cozmesi gerektigini bilmez."
+            title="Asıl eksik bilgi değil, sistemdir."
+            description="İlerleme durur çünkü kullanıcı önce hangi sorunu çözmesi gerektiğini bilmez."
             as="h2"
           />
           <div className="grid gap-4">
             <RouteBlock
-              label="Daginik bilgi"
-              title="Rastgele tavsiye ilerleme uretmez."
-              description="Parca parca bilgi, uygulanabilir bir rota kurmaz. Bu yuzden hazirlik artar, hareket gecikir."
-              commandLabel="Durumunu Tanimla"
+              label="Dağınık bilgi"
+              title="Rastgele tavsiye ilerleme üretmez."
+              description="Parça parça bilgi, uygulanabilir bir rota kurmaz. Bu yüzden hazırlık artar, hareket gecikir."
+              commandLabel="Durumunu Tanımla"
               href="/test"
             />
             <RouteBlock
-              label="Yanlis odak"
-              title="Motivasyon aramak taniyi geciktirir."
-              description="Ne yapman gerektigini bilmeden daha fazla motivasyon istemek yalnizca sureyi uzatir."
+              label="Yanlış odak"
+              title="Motivasyon aramak tanıyı geciktirir."
+              description="Ne yapman gerektiğini bilmeden daha fazla motivasyon istemek yalnızca süreyi uzatır."
               commandLabel="Sistemi Oku"
               href="/sistem"
             />
@@ -81,30 +81,30 @@ export default function HomePage() {
         <div className="space-y-8">
           <HeadingSystem
             eyebrow="Ekosistem"
-            title="Icerik, test, kitap ve uygulama tek ilerleme zinciridir."
-            description="Her katman farkli hazirlik seviyesine cevap verir ve bir sonrakini acar."
+            title="İçerik, test, kitap ve uygulama tek ilerleme zinciridir."
+            description="Her katman farklı hazırlık seviyesine cevap verir ve bir sonrakini açar."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             <SystemLayerCard
-              index="01 / Icerik"
+              index="01 / İçerik"
               title="Dikkati toplar"
-              description="Arama niyetini ve ilgiyi dogru ciddiyetle karsilar."
+              description="Arama niyetini ve ilgiyi doğru ciddiyetle karşılar."
             />
             <SystemLayerCard
               index="02 / Test"
-              title="Durumu tanimlar"
-              description="Hedefi, seviyeyi ve engeli tek giriste netlestirir."
+              title="Durumu tanımlar"
+              description="Hedefi, seviyeyi ve engeli tek girişte netleştirir."
             />
             <SystemLayerCard
               index="03 / Kitap"
               title="Temeli kurar"
-              description="Daginik bilgiyi tasinabilir bir sisteme cevirir."
+              description="Dağınık bilgiyi taşınabilir bir sisteme çevirir."
             />
             <SystemLayerCard
               index="04 / Uygulama"
-              title="Surekliligi kurar"
-              description="Takip ve tekrar katmanini kalici hale getirir."
+              title="Sürekliliği kurar"
+              description="Takip ve tekrar katmanını kalıcı hale getirir."
             />
           </div>
         </div>
@@ -113,31 +113,31 @@ export default function HomePage() {
       <SectionWrapper surface="panel">
         <div className="space-y-10 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
-            eyebrow="Yontem"
-            title="Bilim ve Fitness, tavsiye vermez; sirayi kurar."
-            description="Yontemin isi daha cok bilgi eklemek degil, once neyin oncelikli oldugunu belirlemektir."
+            eyebrow="Yöntem"
+            title="Bilim ve Fitness, tavsiye vermez; sırayı kurar."
+            description="Yöntemin işi daha çok bilgi eklemek değil, önce neyin öncelikli olduğunu belirlemektir."
             as="h2"
           />
           <div className="grid gap-4 lg:grid-cols-3">
             <RouteBlock
               label="Netlik"
-              title="Oncelik ayiklanir"
-              description="Her kullaniciya ayni komut verilmez. Sistem once asli sorunu secer."
+              title="Öncelik ayıklanır"
+              description="Her kullanıcıya aynı komut verilmez. Sistem önce asıl sorunu seçer."
               commandLabel="Sistemi Oku"
               href="/sistem"
             />
             <RouteBlock
               label="Sadelik"
-              title="Karar yuku azalir"
-              description="Kullanicidan tum cozumleri karsilastirmasi beklenmez. Sonraki adim atanir."
+              title="Karar yükü azalır"
+              description="Kullanıcıdan tüm çözümleri karşılaştırması beklenmez. Sonraki adım atanır."
               commandLabel="Teste Gir"
               href="/test"
             />
             <RouteBlock
-              label="Sureklilik"
+              label="Süreklilik"
               title="Tekrar korunur"
-              description="Sistem ilk hareketi degil, kalici ilerlemeyi hedefler."
-              commandLabel="Uygulama Katmanini Gor"
+              description="Sistem ilk hareketi değil, kalıcı ilerlemeyi hedefler."
+              commandLabel="Uygulama Katmanını Gör"
               href="/uygulama"
             />
           </div>
@@ -148,23 +148,23 @@ export default function HomePage() {
         <div className="grid gap-8 lg:grid-cols-[1.02fr,0.98fr]">
           <HeadingSystem
             eyebrow="Test"
-            title="Genel tavsiye alma. Yerini dogrula."
-            description="Test, hedefini ve darboagazini yorumlayip sana tek bir sonraki adim verir. Bu yuzden test ek ozellik degil, sistemin ana girisidir."
+            title="Genel tavsiye alma. Yerini doğrula."
+            description="Test, hedefini ve darboğazını yorumlayıp sana tek bir sonraki adım verir. Bu yüzden test ek özellik değil, sistemin ana girişidir."
             as="h2"
           >
             <CtaCluster
-              primary={{ href: "/test", label: "Teste Gir ve Ilerle" }}
-              secondary={{ href: "/sistem", label: "Test Mantigini Oku", tone: "secondary" }}
-              hint="Hazir hissetmek yetmez. Dogru katmanda olman gerekir."
+              primary={{ href: "/test", label: "Teste Gir ve İlerle" }}
+              secondary={{ href: "/sistem", label: "Test Mantığını Oku", tone: "secondary" }}
+              hint="Hazır hissetmek yetmez. Doğru katmanda olman gerekir."
             />
           </HeadingSystem>
           <div className="rounded-[2rem] border border-line/10 bg-white/85 p-7">
             <p className="text-xs uppercase tracking-[0.22em] text-ink/48">Test sonucu</p>
             <ul className="mt-5 space-y-3 text-sm leading-7 text-ink/68">
-              <li>Asil darboagaz adlandirilir.</li>
-              <li>Ilk odak netlesir.</li>
-              <li>Dogru arac secilir.</li>
-              <li>Sonraki hareket kapanir.</li>
+              <li>Asıl darboğaz adlandırılır.</li>
+              <li>İlk odak netleşir.</li>
+              <li>Doğru araç seçilir.</li>
+              <li>Sonraki hareket kapanır.</li>
             </ul>
           </div>
         </div>
@@ -173,31 +173,31 @@ export default function HomePage() {
       <SectionWrapper>
         <div className="space-y-8">
           <HeadingSystem
-            eyebrow="Urun Yollari"
-            title="Urunler vitrin gibi degil, durumuna gore acilan katmanlar gibi calisir."
-            description="Her sey ayni anda acilmaz. Dogru anda dogru arac devreye girer."
+            eyebrow="Ürün Yolları"
+            title="Ürünler vitrin gibi değil, durumuna göre açılan katmanlar gibi çalışır."
+            description="Her şey aynı anda açılmaz. Doğru anda doğru araç devreye girer."
             as="h2"
           />
           <div className="grid gap-4 lg:grid-cols-3">
             <RouteBlock
-              label="Ilk giris"
-              title="Kitap, temiz ilk katmandir."
-              description="Guveni olusan ama hala daginik olan kullaniciya temel kurar."
-              commandLabel="Kitap Katmanina Gec"
+              label="İlk giriş"
+              title="Kitap, temiz ilk katmandır."
+              description="Güveni oluşan ama hala dağınık olan kullanıcıya temel kurar."
+              commandLabel="Kitap Katmanına Geç"
               href="/kitap"
             />
             <RouteBlock
-              label="Secim"
-              title="Test, uygun araci belirler."
-              description="Secim yoruma birakilmaz. Sistem uygunlugu once netlestirir."
-              commandLabel="Uygunlugu Tanimla"
+              label="Seçim"
+              title="Test, uygun aracı belirler."
+              description="Seçim yoruma bırakılmaz. Sistem uygunluğu önce netleştirir."
+              commandLabel="Uygunluğu Tanımla"
               href="/test"
             />
             <RouteBlock
-              label="Sureklilik"
-              title="Uygulama, tekrar katmanidir."
-              description="Uzun vadeli kullanim mantigini gunluk ritme tasir."
-              commandLabel="Uygulama Katmanini Gor"
+              label="Süreklilik"
+              title="Uygulama, tekrar katmanıdır."
+              description="Uzun vadeli kullanım mantığını günlük ritme taşır."
+              commandLabel="Uygulama Katmanını Gör"
               href="/uygulama"
             />
           </div>
@@ -207,24 +207,24 @@ export default function HomePage() {
       <SectionWrapper surface="panel">
         <div className="space-y-8 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
-            eyebrow="Guven"
-            title="Bu sistem daha cok konustugu icin degil, daha net kuruldugu icin guven verir."
-            description="Ton, yapi ve baglanti mantigi ayni ciddiyeti korur."
+            eyebrow="Güven"
+            title="Bu sistem daha çok konuştuğu için değil, daha net kurulduğu için güven verir."
+            description="Ton, yapı ve bağlantı mantığı aynı ciddiyeti korur."
             as="h2"
           />
           <TrustBlock
             items={[
               {
                 title: "Bilimsel ciddiyet",
-                description: "Yontem, hype yerine acik ilke ve yorum mantigiyla kurulur.",
+                description: "Yöntem, hype yerine açık ilke ve yorum mantığıyla kurulur.",
               },
               {
                 title: "Premium sadelik",
-                description: "Fazla secenek yerine kontrollu aciklik sunulur.",
+                description: "Fazla seçenek yerine kontrollü açıklık sunulur.",
               },
               {
-                title: "Butun sistem",
-                description: "Icerik, test, kitap ve uygulama ayni omurgadan beslenir.",
+                title: "Bütün sistem",
+                description: "İçerik, test, kitap ve uygulama aynı omurgadan beslenir.",
               },
             ]}
           />
@@ -235,15 +235,15 @@ export default function HomePage() {
         <div className="rounded-[2.25rem] bg-ink px-6 py-14 text-white sm:px-10 lg:px-14">
           <HeadingSystem
             eyebrow="Son komut"
-            title="Bekleme. Yerini simdi tanimla."
-            description="Bu noktadan sonra dogru hareket tek: testi ac ve sonraki adimi netlestir."
+            title="Bekleme. Yerini şimdi tanımla."
+            description="Bu noktadan sonra doğru hareket tek: testi aç ve sonraki adımı netleştir."
             as="h2"
             tone="light"
           >
             <CtaCluster
-              primary={{ href: "/test", label: "Testi Ac", tone: "primary" }}
+              primary={{ href: "/test", label: "Testi Aç", tone: "primary" }}
               secondary={{ href: "/sistem", label: "Sistemi Oku", tone: "secondary" }}
-              hint="Belirsizligi uzatma."
+              hint="Belirsizliği uzatma."
               tone="light"
             />
           </HeadingSystem>
