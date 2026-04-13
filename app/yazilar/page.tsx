@@ -12,14 +12,14 @@ import {
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata({
-  title: "Yazilar",
+  title: "Yazılar",
   description:
-    "Bilim ve Fitness yazilar sayfasi; daginik bir blog akisi degil, dar sorulari sistem ve test katmanina baglayan kontrollu otorite dizinidir.",
+    "Bilim ve Fitness yazılar sayfası; dağınık bir blog akışı değil, dar soruları sistem ve test katmanına bağlayan kontrollü otorite dizinidir.",
   path: "/yazilar",
   keywords: [
     "antrenman bilimi",
-    "fitness yazilari",
-    "beslenme ve vucut kompozisyonu",
+    "fitness yazıları",
+    "beslenme ve vücut kompozisyonu",
     "fitness mitleri",
   ],
 });
@@ -31,17 +31,17 @@ const secondaryArticles = authorityArticles.filter(
 const authorityRoutes = [
   {
     label: "Sistem",
-    title: "Sorun dar gorunuyor ama cerceve eksikse, once omurgayi oku.",
+    title: "Sorun dar görünüyor ama çerçeve eksikse, önce omurgayı oku.",
     description:
-      "Yazilar dar soruyu cozer. /sistem ise o sorunun daha buyuk mantikta nereye oturdugunu gosterir.",
-    commandLabel: "Omurgayi Simdi Oku",
+      "Yazılar dar soruyu çözer. /sistem ise o sorunun daha büyük mantıkta nereye oturduğunu gösterir.",
+    commandLabel: "Omurgayı Şimdi Oku",
     href: "/sistem",
   },
   {
     label: "Test",
-    title: "Soru genel ama karar kisiselse, bir sonraki durak tani katmanidir.",
+    title: "Soru genel ama karar kişiselse, bir sonraki durak tanı katmanıdır.",
     description:
-      "Yazidan sonra kendin icin hangi rotanin acilmasi gerektigini netlestirmek istiyorsan teste gec.",
+      "Yazıdan sonra kendin için hangi rotanın açılması gerektiğini netleştirmek istiyorsan teste geç.",
     commandLabel: "Teste Gir",
     href: "/test",
   },
@@ -53,14 +53,14 @@ export default function ArticlesPage() {
       <SectionWrapper className="border-none">
         <div className="grid gap-8 rounded-[2.5rem] border border-line/10 bg-white/74 px-6 py-14 shadow-panel sm:px-9 lg:grid-cols-[1fr,0.95fr] lg:px-14 lg:py-18">
           <HeadingSystem
-            eyebrow="Bilgi Katmani"
-            title="Yazilar, bir akis degil; dar sorulari sirayla temizleyen bilgi katmani."
-            description="Buradaki her yazi belirli bir arama niyetini hizli sekilde karsilar, sonra konuyu Bilim ve Fitness omurgasina baglar. Okuma yonu basittir: sorudan gir, sistemi gor, gerekiyorsa taniya gec."
+            eyebrow="Bilgi Katmanı"
+            title="Yazılar, bir akış değil; dar soruları sırayla temizleyen bilgi katmanı."
+            description="Buradaki her yazı belirli bir arama niyetini hızlı şekilde karşılar, sonra konuyu Bilim ve Fitness omurgasına bağlar. Okuma yönü basittir: sorudan gir, sistemi gör, gerekiyorsa tanıya geç."
             as="h1"
           >
             <div className="flex flex-wrap gap-3">
               <CommandButton href={`/yazilar/${featuredAuthorityArticle.slug}`}>
-                Secili Yaziyi Oku
+                Seçili Yazıyı Oku
               </CommandButton>
               <CommandButton href="/test" tone="secondary">
                 Teste Gir
@@ -75,9 +75,9 @@ export default function ArticlesPage() {
       <SectionWrapper surface="panel">
         <div className="space-y-8 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
-            eyebrow="Konu Omurgasi"
-            title="Icerik duvar gibi buyumez; konu mantigina gore acilir."
-            description="Asagidaki cluster'lar yazilari kategori olsun diye degil, kullanicinin hangi soru tipinden girdigini anlasin diye sabitlenir."
+            eyebrow="Konu Omurgası"
+            title="İçerik duvar gibi büyümez; konu mantığına göre açılır."
+            description="Aşağıdaki cluster'lar yazıları kategori olsun diye değil, kullanıcının hangi soru tipinden girdiğini anlasın diye sabitlenir."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -97,13 +97,13 @@ export default function ArticlesPage() {
                     {cluster.label}
                   </p>
                   <h2 className="mt-3 font-display text-[1.45rem] leading-tight text-ink">
-                    {count} yazi ile ayni soruyu farkli acilardan toplar.
+                    {count} yazı ile aynı soruyu farklı açılardan toplar.
                   </h2>
                   <p className="mt-4 text-sm leading-7 text-ink/68">{cluster.description}</p>
                   {leadArticle ? (
                     <div className="mt-5">
                       <CommandButton href={`/yazilar/${leadArticle.slug}`} tone="secondary">
-                        Cluster'dan Basla
+                        Cluster'dan Başla
                       </CommandButton>
                     </div>
                   ) : null}
@@ -117,9 +117,9 @@ export default function ArticlesPage() {
       <SectionWrapper>
         <div className="grid gap-10 lg:grid-cols-[0.88fr,1.12fr]">
           <HeadingSystem
-            eyebrow="Okuma Yonu"
-            title="Ilk olarak soruya en yakin yazidan gir. Sonra konuyu daha buyuk sistemde yerine koy."
-            description="Liste bilerek sinirlidir. Buradaki her kart, cluster mantigi gorunur kalsin ve her bir yazi seni bir sonraki dogru duraga itsin diye secildi."
+            eyebrow="Okuma Yönü"
+            title="İlk olarak soruya en yakın yazıdan gir. Sonra konuyu daha büyük sistemde yerine koy."
+            description="Liste bilerek sınırlıdır. Buradaki her kart, cluster mantığı görünür kalsın ve her bir yazı seni bir sonraki doğru durağa itsin diye seçildi."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-2">
@@ -133,9 +133,9 @@ export default function ArticlesPage() {
       <SectionWrapper className="border-none">
         <div className="rounded-[2.5rem] border border-line/10 bg-ink px-6 py-12 text-white shadow-panel sm:px-9 lg:px-14 lg:py-16">
           <HeadingSystem
-            eyebrow="Sonraki Ayrim"
-            title="Yazi dar soruyu kapatir. Sonraki hamle, sistem mi tani mi gerektigine gore acilir."
-            description="Eger okuduklarin sende tekrarlayan daha buyuk bir yapisal soruna isaret ediyorsa omurgaya gec. Eger konu artik kisisel rotana donusuyorsa tani katmanina ilerle."
+            eyebrow="Sonraki Ayrım"
+            title="Yazı dar soruyu kapatır. Sonraki hamle, sistem mi tanı mı gerektiğine göre açılır."
+            description="Eğer okudukların sende tekrarlayan daha büyük bir yapısal soruna işaret ediyorsa omurgaya geç. Eğer konu artık kişisel rotana dönüşüyorsa tanı katmanına ilerle."
             as="h2"
             tone="light"
           />

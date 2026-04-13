@@ -59,116 +59,116 @@ type ContinuationSection = ContinuationConfig & {
 
 export const bookPageContent = {
   hero: {
-    eyebrow: "Kitap Katmani",
-    title: "Kitap, daginik bilgiyi tasinabilir bir sisteme cevirir.",
+    eyebrow: "Kitap Katmanı",
+    title: "Kitap, dağınık bilgiyi taşınabilir bir sisteme çevirir.",
     description:
-      "Bu sayfa bir urun vitrini degil. Temeli daha sakin, daha net ve daha sirali kurmak isteyen kullanici icin ilk ciddi araci tanimlar.",
+      "Bu sayfa bir ürün vitrini değil. Temeli daha sakin, daha net ve daha sıralı kurmak isteyen kullanıcı için ilk ciddi aracı tanımlar.",
     panelEyebrow: "Ana rol",
-    panelTitle: "Kitap burada ilk duzen katmanidir.",
+    panelTitle: "Kitap burada ilk düzen katmanıdır.",
     panelDescription:
-      "Sistem sayfasi cerceveyi kurar. Test seni yerine yerlestirir. Kitap ise o cerceveyi elde tutulur bir uygulama duzenine indirir.",
+      "Sistem sayfası çerçeveyi kurar. Test seni yerine yerleştirir. Kitap ise o çerçeveyi elde tutulur bir uygulama düzenine indirir.",
     primaryCommand: {
       href: "/test",
-      label: "Kitap Yolunu Netlestir",
+      label: "Kitap Yolunu Netleştir",
     },
     secondaryCommand: {
       href: "/sistem",
-      label: "Omurgayi Oku",
+      label: "Omurgayı Oku",
     },
-    hint: "Bu sayfa, kitabi herkese degil; sisteme giris katmani arayan kisilere aciklar.",
+    hint: "Bu sayfa, kitabı herkese değil; sisteme giriş katmanı arayan kişilere açıklar.",
   } satisfies ProductHero,
   whatItIs: {
     eyebrow: "Bu Kitap Nedir",
-    title: "Genel fitness tavsiyelerini yan yana dizmez; calisan bir siralama kurar.",
+    title: "Genel fitness tavsiyelerini yan yana dizmez; çalışan bir sıralama kurar.",
     description:
-      "Kitabin rolu daha cok bilgi vermek degil, hangi bilgi ne zaman ise yarar sorusunu kapatmaktir. Boylece kullanici neyi once kuracagini ve neyi simdilik disarida birakacagini net gorur.",
+      "Kitabın rolü daha çok bilgi vermek değil, 'hangi bilgi ne zaman işe yarar' sorusunu kapatmaktır. Böylece kullanıcı neyi önce kuracağını ve neyi şimdilik dışarıda bırakacağını net görür.",
   } satisfies ProductSection,
   solvedProblems: [
     {
       title: "Netlik",
       description:
-        "Ne yapman gerektigi kadar, neden simdi onu yapman gerektigi de berraklasir.",
+        "Ne yapman gerektiği kadar, neden şimdi onu yapman gerektiği de berraklaşır.",
     },
     {
-      title: "Yapi",
+      title: "Yapı",
       description:
-        "Hedef, antrenman ve davranis ayni mantikta toplandigi icin kararlar dagilmaz.",
+        "Hedef, antrenman ve davranış aynı mantıkta toplandığı için kararlar dağılmaz.",
     },
     {
-      title: "Yon",
+      title: "Yön",
       description:
-        "Ilk haftalarda neye odaklanacagini belirsiz birakmaz; giris hizini sakinlestirir.",
+        "İlk haftalarda neye odaklanacağını belirsiz bırakmaz; giriş hızını sakinleştirir.",
     },
   ] satisfies ProductCard[],
   gains: [
     {
-      title: "Ilk siralama kapanir",
+      title: "İlk sıralama kapanır",
       description:
-        "Hangi alanin once duzelmesi gerektigi netlestigi icin enerji yanlis yere dagilmaz.",
+        "Hangi alanın önce düzelmesi gerektiği netleştiği için enerji yanlış yere dağılmaz.",
     },
     {
       title: "Tek kaynak hissi kurulur",
       description:
-        "Parca parca tavsiyeler yerine tek omurgadan ilerlemek daha temiz karar uretir.",
+        "Parça parça tavsiyeler yerine tek omurgadan ilerlemek daha temiz karar üretir.",
     },
     {
-      title: "Daha sakin uygulama baslar",
+      title: "Daha sakin uygulama başlar",
       description:
-        "Hizli ama daginik denemeler yerine, tekrar edilebilir bir baslangic duzeni olusur.",
+        "Hızlı ama dağınık denemeler yerine, tekrar edilebilir bir başlangıç düzeni oluşur.",
     },
     {
-      title: "Sureklilige hazirlik dogar",
+      title: "Sürekliliğe hazırlık doğar",
       description:
-        "Kitap, ileride uygulama katmanina tasinacak davranis mantigini erken safhada kurar.",
+        "Kitap, ileride uygulama katmanına taşınacak davranış mantığını erken safhada kurar.",
     },
   ] satisfies ProductCard[],
   forYou: {
-    eyebrow: "Kimler Icin",
-    title: "Bu kitap, once sistemi temiz kurmak isteyenler icin dogrudur.",
+    eyebrow: "Kimler İçin",
+    title: "Bu kitap, önce sistemi temiz kurmak isteyenler için doğrudur.",
     description:
-      "Asagidaki profiller kitaptan en fazla faydayi alir:",
+      "Aşağıdaki profiller kitaptan en fazla faydayı alır:",
     items: [
-      "Baslangicta olup neye once odaklanacagini netlestirmek isteyenler",
-      "Yeniden baslarken eski karmasaya geri donmek istemeyenler",
-      "Testte temel netlik veya temel kurulum profiline dusenler",
-      "Daha ciddi bir sonraki adimdan once iskeleti sakinlestirmek isteyenler",
+      "Başlangıçta olup neye önce odaklanacağını netleştirmek isteyenler",
+      "Yeniden başlarken eski karmaşaya geri dönmek istemeyenler",
+      "Testte temel netlik veya temel kurulum profiline düşenler",
+      "Daha ciddi bir sonraki adımdan önce iskeleti sakinleştirmek isteyenler",
     ],
   } satisfies FitSection,
   notForYou: {
-    eyebrow: "Kimler Icin Degil",
-    title: "Bu sayfa herkes icin ayni cevap gibi davranmaz.",
+    eyebrow: "Kimler İçin Değil",
+    title: "Bu sayfa herkes için aynı cevap gibi davranmaz.",
     description:
-      "Asagidaki durumlarda kitap ilk arac olmayabilir:",
+      "Aşağıdaki durumlarda kitap ilk araç olmayabilir:",
     items: [
-      "Sorunu temel kurulum degil, ileri seviye ince ayar olanlar",
-      "Ana ihtiyaci gunluk takip ve sureklilik sistemi olanlar",
-      "Performans ya da optimizasyon tarafinda daha hassas bir katman arayanlar",
-      "Sadece motivasyon arayip yapisal degisim istemeyenler",
+      "Sorunu temel kurulum değil, ileri seviye ince ayar olanlar",
+      "Ana ihtiyacı günlük takip ve süreklilik sistemi olanlar",
+      "Performans ya da optimizasyon tarafında daha hassas bir katman arayanlar",
+      "Sadece motivasyon arayıp yapısal değişim istemeyenler",
     ],
   } satisfies FitSection,
   systemRoutes: [
     {
       label: "Sistem",
-      title: "Kitap, markanin teorisini pratik duzene indirir.",
+      title: "Kitap, markanın teorisini pratik düzene indirir.",
       description:
-        "Buradaki iddia bagimsiz degil. Kitap, /sistem sayfasinda tanimlanan mantigin elde tutulan ilk formudur.",
+        "Buradaki iddia bağımsız değil. Kitap, /sistem sayfasında tanımlanan mantığın elde tutulan ilk formudur.",
       commandLabel: "Sistemi Oku",
       href: "/sistem",
     },
     {
       label: "Test",
-      title: "Test, bu katmanin sende ilk arac olup olmadigini dogrular.",
+      title: "Test, bu katmanın sende ilk araç olup olmadığını doğrular.",
       description:
-        "Kitap herkese ilk cevap diye acilmaz. Test sonucu, kitabin sende netlik mi kurulum mu problemi cozecegini ayirir.",
-      commandLabel: "Teste Don",
+        "Kitap herkese ilk cevap diye açılmaz. Test sonucu, kitabın sende netlik mi kurulum mu problemi çözeceğini ayırır.",
+      commandLabel: "Teste Dön",
       href: "/test",
     },
     {
-      label: "Sureklilik",
-      title: "Uygulama, kitapla kurulan mantigi gunluk tekrar katmanina tasir.",
+      label: "Süreklilik",
+      title: "Uygulama, kitapla kurulan mantığı günlük tekrar katmanına taşır.",
       description:
-        "Kitap bir son nokta degil; tekrar eden davranisi tasiyan daha genis sistemin ilk sakin adimidir.",
-      commandLabel: "Uygulama Katmanini Gor",
+        "Kitap bir son nokta değil; tekrar eden davranışı taşıyan daha geniş sistemin ilk sakin adımıdır.",
+      commandLabel: "Uygulama Katmanını Gör",
       href: "/uygulama",
     },
   ] satisfies SystemRoute[],
@@ -207,123 +207,123 @@ export const bookPageContent = {
 
 export const appPageContent = {
   hero: {
-    eyebrow: "Sureklilik Katmani",
-    title: "Uygulama, sistemi gunluk uygulamaya indirir. Ilk erisim sirasi sinirlidir.",
+    eyebrow: "Süreklilik Katmanı",
+    title: "Uygulama, sistemi günlük uygulamaya indirir. İlk erişim sırası sınırlıdır.",
     description:
-      "Bu rota bagimsiz bir uygulama tanitimi degil. Karar, takip ve tekrar katmaninin neden var oldugunu aciklarken ilk kullanicilar icin kontrollu bir erken erisim cagrisi da kurar.",
-    panelEyebrow: "Henuz tam acik degil",
-    panelTitle: "Uygulama katmani once ilk kullanicilarla acilacak.",
+      "Bu rota bağımsız bir uygulama tanıtımı değil. Karar, takip ve tekrar katmanının neden var olduğunu açıklarken ilk kullanıcılar için kontrollü bir erken erişim çağrısı da kurar.",
+    panelEyebrow: "Henüz tam açık değil",
+    panelTitle: "Uygulama katmanı önce ilk kullanıcılarla açılacak.",
     panelDescription:
-      "Test seni tanir. Kitap temeli kurar. Uygulama ise gunluk tekrar, geri donus ve davranis surekliligini tasir. Bu katman herkese ayni anda acilmayacak.",
+      "Test seni tanır. Kitap temeli kurar. Uygulama ise günlük tekrar, geri dönüş ve davranış sürekliliğini taşır. Bu katman herkese aynı anda açılmayacak.",
     primaryCommand: {
       href: "/uygulama#erken-erisim",
-      label: "Erken Erisim Yerini Koru",
+      label: "Erken Erişim Yerini Koru",
     },
     secondaryCommand: {
       href: "/test",
-      label: "Uygunlugunu Dogrula",
+      label: "Uygunluğunu Doğrula",
     },
-    hint: "Ilk kullanicilar, bu katmana herkesten once girip sureklilik hattini erken kuracak.",
+    hint: "İlk kullanıcılar, bu katmana herkesten önce girip süreklilik hattını erken kuracak.",
   } satisfies ProductHero,
   whatItDoes: [
     {
-      title: "Karar destegi",
+      title: "Karar desteği",
       description:
-        "Gunluk akista neye odaklanacagini sade tutar; her gun yeniden karar vermek zorunda birakmaz.",
+        "Günlük akışta neye odaklanacağını sade tutar; her gün yeniden karar vermek zorunda bırakmaz.",
     },
     {
       title: "Takip",
       description:
-        "Davranis ve tekrar ritmini gorunur hale getirir; kopuslar sessizce buyumez.",
+        "Davranış ve tekrar ritmini görünür hale getirir; kopuşlar sessizce büyümez.",
     },
     {
-      title: "Yonlendirme",
+      title: "Yönlendirme",
       description:
-        "Sadece veri toplamaz; veri uzerinden bir sonraki mantikli duzeltmeyi isaret eder.",
+        "Sadece veri toplamaz; veri üzerinden bir sonraki mantıklı düzeltmeyi işaret eder.",
     },
   ] satisfies ProductCard[],
   whyItExists: {
     eyebrow: "Neden Var",
-    title: "Bilgi ile davranis arasindaki kopuyu kapatmak icin var.",
+    title: "Bilgi ile davranış arasındaki kopuşu kapatmak için var.",
     description:
-      "Bir sistemi okumak ile onu her gun surdurmek ayni sey degildir. Uygulama katmani, tam bu araliga girer: unutulan kararlari geri cagirir, ritmi takip eder ve dagilmayi gorunur hale getirir.",
+      "Bir sistemi okumak ile onu her gün sürdürmek aynı şey değildir. Uygulama katmanı, tam bu aralığa girer: unutulan kararları geri çağırır, ritmi takip eder ve dağılmayı görünür hale getirir.",
   } satisfies ProductSection,
   futurePositioning: [
     {
-      title: "Gunluk tekrar katmani",
+      title: "Günlük tekrar katmanı",
       description:
-        "Asil deger, davranisi her gun yeniden baslatmak yerine ayni yol uzerinde tutmaktir.",
+        "Asıl değer, davranışı her gün yeniden başlatmak yerine aynı yol üzerinde tutmaktır.",
     },
     {
-      title: "Ilk kullanicilarla sertlesecek",
+      title: "İlk kullanıcılarla sertleşecek",
       description:
-        "Uygulama buyudukce kitap, test ve gelecekteki diger katmanlarla birlikte calisacak sekilde ilk kullanim desenleriyle sertlesecek.",
+        "Uygulama büyüdükçe kitap, test ve gelecekteki diğer katmanlarla birlikte çalışacak şekilde ilk kullanım desenleriyle sertleşecek.",
     },
     {
-      title: "Olculu gelisim",
+      title: "Ölçülü gelişim",
       description:
-        "Burada olmayan ozellikler vaat edilmez. Yalnizca sistemin gerektirdigi katmanlar eklenir.",
+        "Burada olmayan özellikler vaat edilmez. Yalnızca sistemin gerektirdiği katmanlar eklenir.",
     },
   ] satisfies ProductCard[],
   forYou: {
-    eyebrow: "Kimler Icin",
-    title: "Uygulama, bilgiyi hatirlamak degil uygulamak isteyenler icindir.",
+    eyebrow: "Kimler İçin",
+    title: "Uygulama, bilgiyi hatırlamak değil uygulamak isteyenler içindir.",
     description:
-      "Ozellikle su profiller icin anlamli hale gelir:",
+      "Özellikle şu profiller için anlamlı hale gelir:",
     items: [
-      "Ritmi tekrar tekrar kaybeden ve geri donus yolunu sabit tutmak isteyenler",
-      "Performans veya optimizasyon tarafinda gunluk takip duzeni arayanlar",
-      "Testte sureklilik, performans hassasiyeti ya da ileri seviye optimizasyon profiline dusenler",
-      "Kitapla ya da sistemle kurulan mantigi gunluk davranisa indirmek isteyenler",
+      "Ritmi tekrar tekrar kaybeden ve geri dönüş yolunu sabit tutmak isteyenler",
+      "Performans veya optimizasyon tarafında günlük takip düzeni arayanlar",
+      "Testte süreklilik, performans hassasiyeti ya da ileri seviye optimizasyon profiline düşenler",
+      "Kitapla ya da sistemle kurulan mantığı günlük davranışa indirmek isteyenler",
     ],
   } satisfies FitSection,
   systemRoutes: [
     {
       label: "Sistem",
-      title: "Uygulama, omurgayi tekrar eden davranisa baglar.",
+      title: "Uygulama, omurgayı tekrar eden davranışa bağlar.",
       description:
-        "/sistem sayfasinda kurulan mantik uygulamada her gun yeniden aktif hale gelir.",
-      commandLabel: "Omurgayi Oku",
+        "/sistem sayfasında kurulan mantık uygulamada her gün yeniden aktif hale gelir.",
+      commandLabel: "Omurgayı Oku",
       href: "/sistem",
     },
     {
       label: "Test",
-      title: "Test, uygulamanin sende erkenden mi yoksa sonra mi acilmasi gerektigini ayirir.",
+      title: "Test, uygulamanın sende erkenden mi yoksa sonra mı açılması gerektiğini ayırır.",
       description:
-        "Uygulama ilk cevap olmak zorunda degildir. Bazen once netlik, bazen once kurulum gerekir.",
-      commandLabel: "Teste Don",
+        "Uygulama ilk cevap olmak zorunda değildir. Bazen önce netlik, bazen önce kurulum gerekir.",
+      commandLabel: "Teste Dön",
       href: "/test",
     },
     {
       label: "Kitap",
-      title: "Kitap temel kurarsa, uygulama o temeli gunde tutar.",
+      title: "Kitap temel kurarsa, uygulama o temeli günde tutar.",
       description:
-        "Uygulama bilgi deposu gibi degil; daha once kurulan mantigi kalici davranisa cevirmek icin gelir.",
-      commandLabel: "Kitap Katmanini Gor",
+        "Uygulama bilgi deposu gibi değil; daha önce kurulan mantığı kalıcı davranışa çevirmek için gelir.",
+      commandLabel: "Kitap Katmanını Gör",
       href: "/kitap",
     },
   ] satisfies SystemRoute[],
   segmentRelevance: getProductSegmentRelevance("app") satisfies SegmentRelevance[],
   waitlist: {
-    eyebrow: "Erken Erisim",
-    title: "Erken erisim acildiginda disarida kalma.",
+    eyebrow: "Erken Erişim",
+    title: "Erken erişim açıldığında dışarıda kalma.",
     description:
-      "Buraya e-postani birakirsan bir haber bultenine yazilmis olmazsin. Ilk acilis notunu, sana uygun kullanim profilini ve kontrollu erken erisim sirani korursun.",
+      "Buraya e-postanı bırakırsan bir haber bültenine yazılmış olmazsın. İlk açılış notunu, sana uygun kullanım profilini ve kontrollü erken erişim sıranı korursun.",
     whyNow:
-      "Bu katman tam acildiginda yeniden dusunmek zorunda kalmamak icin yerini simdi koruman gerekir.",
+      "Bu katman tam açıldığında yeniden düşünmek zorunda kalmamak için yerini şimdi koruman gerekir.",
     delayCost:
-      "Beklersen ilk kullanim dalgasi acildiginda baglami yeniden kurman ve sisteme daha gec girmen gerekebilir.",
+      "Beklersen ilk kullanım dalgası açıldığında bağlamı yeniden kurman ve sisteme daha geç girmen gerekebilir.",
     deliverables: [
-      "Erken erisim sirasi",
-      "Ilk kullanim cercevesi",
-      "Sana uygun oldugunda oncelikli haber",
+      "Erken erişim sırası",
+      "İlk kullanım çerçevesi",
+      "Sana uygun olduğunda öncelikli haber",
     ],
-    buttonLabel: "Sirami Koru",
+    buttonLabel: "Sıramı Koru",
     successMessage:
-      "Erken erisim yerin kaydedildi. Gercek gonderim baglantisi sonraki asamada eklenecek.",
+      "Erken erişim yerin kaydedildi. Gerçek gönderim bağlantısı sonraki aşamada eklenecek.",
     helperText:
-      "Bu alan haber bulteni icin degil; uygulama katmani acildiginda baglamini kaybetmeden geri donmen icin hazirlandi.",
-    inputPlaceholder: "Erken erisim sirani gonderecegimiz e-posta",
+      "Bu alan haber bülteni için değil; uygulama katmanı açıldığında bağlamını kaybetmeden geri dönmen için hazırlandı.",
+    inputPlaceholder: "Erken erişim sıranı göndereceğimiz e-posta",
     submitEventName: "uygulama_waitlist_click",
     submitEventPayload: {
       location: "uygulama_waitlist_form",

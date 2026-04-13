@@ -28,8 +28,8 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <footer className="section-rule">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-10 text-sm text-ink/64 lg:px-10">
           <p className="max-w-2xl">
-            Bilim ve Fitness; bilimsel netlik, sistem dusuncesi ve premium sadelik uzerine
-            kurulu bir fitness ekosistemi icin dijital merkez olarak tasarlanmistir.
+            Bilim ve Fitness; bilimsel netlik, sistem düşüncesi ve premium sadelik üzerine
+            kurulu bir fitness ekosistemi için dijital merkez olarak tasarlanmıştır.
           </p>
           <div className="flex flex-wrap gap-4">
             {siteNavigation.map((item) => (

@@ -80,37 +80,37 @@ export const articleClusters = [
     key: "training_science",
     label: "Antrenman Bilimi",
     description:
-      "Hacim, yogunluk, hareket secimi ve ilerleme mantigini gosterisiz ama net bicimde ayirir.",
+      "Hacim, yoğunluk, hareket seçimi ve ilerleme mantığını gösterişsiz ama net biçimde ayırır.",
   },
   {
     key: "nutrition_body_composition",
-    label: "Beslenme ve Vucut Kompozisyonu",
+    label: "Beslenme ve Vücut Kompozisyonu",
     description:
-      "Kalori, protein, agirlik degisimi ve surdurulebilir beslenme kararlarini ayni cercevede toplar.",
+      "Kalori, protein, ağırlık değişimi ve sürdürülebilir beslenme kararlarını aynı çerçevede toplar.",
   },
   {
     key: "recovery_sleep",
     label: "Toparlanma ve Uyku",
     description:
-      "Toparlanma sinyallerini performans ve davranis surekliligiyle birlikte yorumlar.",
+      "Toparlanma sinyallerini performans ve davranış sürekliliğiyle birlikte yorumlar.",
   },
   {
     key: "habits_consistency",
-    label: "Aliskanliklar ve Sureklilik",
+    label: "Alışkanlıklar ve Süreklilik",
     description:
-      "Kopusu sadece irade sorunu gibi gormez; ritim, ortam ve karar yorgunlugu uzerinden okur.",
+      "Kopuşu sadece irade sorunu gibi görmez; ritim, ortam ve karar yorgunluğu üzerinden okur.",
   },
   {
     key: "performance_optimization",
     label: "Performans ve Optimizasyon",
     description:
-      "Plato, performans sinyalleri ve ileri seviye duzeltmeleri tek tek degil sistem halinde ele alir.",
+      "Plato, performans sinyalleri ve ileri seviye düzeltmeleri tek tek değil sistem halinde ele alır.",
   },
   {
     key: "myths_clarifications",
-    label: "Fitness Mitleri ve Netlestirmeler",
+    label: "Fitness Mitleri ve Netleştirmeler",
     description:
-      "Populer ama zayif tavsiyeleri ayirir; gosteris yerine uygulanabilir netlik sunar.",
+      "Popüler ama zayıf tavsiyeleri ayırır; gösteriş yerine uygulanabilir netlik sunar.",
   },
 ] as const satisfies {
   key: ArticleClusterKey;
@@ -120,400 +120,400 @@ export const articleClusters = [
 
 export const authorityArticles: AuthorityArticle[] = [
   {
-    title: "Duzen neden uc gunde bozuluyor?",
+    title: "Düzen neden üç günde bozuluyor?",
     slug: "duzen-neden-uc-gunde-bozuluyor",
     cluster: "habits_consistency",
     summary:
-      "Problem genelde motivasyon eksigi degil; ilk kurulumun fazla yuklu, fazla daginik ve geri donus kuralsiz olmasidir.",
+      "Problem genelde motivasyon eksiği değil; ilk kurulumun fazla yüklü, fazla dağınık ve geri dönüş kuralsız olmasıdır.",
     intent: "decision",
     readingTime: "6 dk",
     featured: true,
     continuationTarget: "test",
     opening: {
-      eyebrow: "Sureklilik Sorusu",
-      title: "Ritmin uc gunde bozuluyorsa sorun karakter degil, kurulum olabilir.",
+      eyebrow: "Süreklilik Sorusu",
+      title: "Ritmin üç günde bozuluyorsa sorun karakter değil, kurulum olabilir.",
       description:
-        "Cogu kisi duzenin bozulmasini irade zayifligi sanir. Aslinda ilk plan kaldirabileceginden buyuk kuruldugunda kopus neredeyse kacinilmaz olur.",
-      answerTitle: "Kisa cevap",
+        "Çoğu kişi düzenin bozulmasını irade zayıflığı sanır. Aslında ilk plan kaldırabileceğinden büyük kurulduğunda kopuş neredeyse kaçınılmaz olur.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Duzenin erken bozulmasi, sistemin tasinabilir olmadigini gosterir. Ilk duzeltilmesi gereken sey hedefin kendisi degil, ritmi tasiyan en kucuk tekrar birimidir.",
+        "Düzenin erken bozulması, sistemin taşınabilir olmadığını gösterir. İlk düzeltilmesi gereken şey hedefin kendisi değil, ritmi taşıyan en küçük tekrar birimidir.",
     },
     clarification: {
-      title: "Kopusu ne buyutur?",
+      title: "Kopuşu ne büyütür?",
       description:
-        "Kopusu buyuten ana hatalar birbirine benzer. Sorunlar farkli gorunse de yapisal desen aynidir:",
+        "Kopuşu büyüten ana hatalar birbirine benzer. Sorunlar farklı görünse de yapısal desen aynıdır:",
       points: [
-        "Bir anda fazla seyi degistirmek ve plana giris maliyetini yuksek tutmak",
-        "Baslangic ritmini guclendirmeden sonuc beklentisini yukarida tutmak",
-        "Kopustan sonra nereye donecegini belirlememis olmak",
+        "Bir anda fazla şeyi değiştirmek ve plana giriş maliyetini yüksek tutmak",
+        "Başlangıç ritmini güçlendirmeden sonuç beklentisini yukarıda tutmak",
+        "Kopuştan sonra nereye döneceğini belirlememiş olmak",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Davranis surekliligini bozan sey, sadece disiplin eksigi degil; tekrar sinyalinin belirsiz olmasidir. Sistem her gun yeniden karar istediginde zihinsel maliyet artar ve tekrar orani duser.",
-        "Bu nedenle iyi kurulan bir fitness sistemi her gun daha cok sey yapmayi degil, ayni kritik davranisi daha az surtunmeyle tekrar etmeyi hedefler. Once ritim oturur, sonra yuk artar.",
+        "Davranış sürekliliğini bozan şey, sadece disiplin eksiği değil; tekrar sinyalinin belirsiz olmasıdır. Sistem her gün yeniden karar istediğinde zihinsel maliyet artar ve tekrar oranı düşer.",
+        "Bu nedenle iyi kurulan bir fitness sistemi her gün daha çok şey yapmayı değil, aynı kritik davranışı daha az sürtünmeyle tekrar etmeyi hedefler. Önce ritim oturur, sonra yük artar.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Duzenin erken dagiliyorsa ilk duzeltme daha fazla sertlik degil daha dusuk giris maliyetidir.",
+        "Düzenin erken dağılıyorsa ilk düzeltme daha fazla sertlik değil daha düşük giriş maliyetidir.",
       actions: [
-        "Tek bir antrenman veya davranis kalibini ilk hafta boyunca sabit tut.",
-        "Kopustan sonra geri donecegin minimum versiiyonunu onceden tanimla.",
-        "Ilk on gunu sonuc degil tekrar sayisi ile takip et.",
+        "Tek bir antrenman veya davranış kalıbını ilk hafta boyunca sabit tut.",
+        "Kopuştan sonra geri döneceğin minimum versiyonunu önceden tanımla.",
+        "İlk on günü sonuç değil tekrar sayısı ile takip et.",
       ],
     },
     systemBridge: {
-      title: "Bu soru aslinda daha genis bir sistem sorusu.",
+      title: "Bu soru aslında daha geniş bir sistem sorusu.",
       description:
-        "Sureklilik problemi tek basina aliskanlik meselesi degildir. Bilim ve Fitness sisteminde ritim; hedef, karar maliyeti ve toparlanma ile birlikte kurulur. Bu nedenle dar soru ancak daha buyuk omurga icinde tam cevap bulur.",
+        "Süreklilik problemi tek başına alışkanlık meselesi değildir. Bilim ve Fitness sisteminde ritim; hedef, karar maliyeti ve toparlanma ile birlikte kurulur. Bu nedenle dar soru ancak daha büyük omurga içinde tam cevap bulur.",
       primaryCommand: {
         href: "/sistem",
-        label: "Omurgayi Oku",
+        label: "Omurgayı Oku",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Durumunu Ayir",
+        label: "Durumunu Ayır",
       },
     },
     stateNextStep: {
-      title: "Siradaki adimi durumuna gore sec.",
+      title: "Sıradaki adımı durumuna göre seç.",
       description:
-        "Ayni yazidan cikan iki kullanicinin sonraki adimi ayni olmak zorunda degil. Asagidaki ayrim bu yuzden var:",
+        "Aynı yazıdan çıkan iki kullanıcının sonraki adımı aynı olmak zorunda değil. Aşağıdaki ayrım bu yüzden var:",
       routes: [
         {
-          label: "Cerceve Eksigi",
-          title: "Sorunun nerede basladigini daha genis sistemde gormek istiyorsan omurgaya git.",
+          label: "Çerçeve Eksiği",
+          title: "Sorunun nerede başladığını daha geniş sistemde görmek istiyorsan omurgaya git.",
           description:
-            "Bu konu sende hep tekrar ediyorsa yalnizca taktik degil, daha buyuk kurulum mantigi eksik olabilir.",
+            "Bu konu sende hep tekrar ediyorsa yalnızca taktik değil, daha büyük kurulum mantığı eksik olabilir.",
           href: "/sistem",
-          commandLabel: "Omurgayi Simdi Oku",
+          commandLabel: "Omurgayı Şimdi Oku",
         },
         {
-          label: "Kisisel Rota",
-          title: "Bu kopusun sende tam olarak hangi profile girdigini ayirmak istiyorsan teste gec.",
+          label: "Kişisel Rota",
+          title: "Bu kopuşun sende tam olarak hangi profile girdiğini ayırmak istiyorsan teste geç.",
           description:
-            "Test, sureklilik probleminin bilgi, ritim ya da darbogaz kaynakli olup olmadigini netlestirir.",
+            "Test, süreklilik probleminin bilgi, ritim ya da darboğaz kaynaklı olup olmadığını netleştirir.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
-          label: "Devam Katmani",
-          title: "Simdi cikman gerekiyorsa rotani kaybetmeden ayril.",
+          label: "Devam Katmanı",
+          title: "Şimdi çıkman gerekiyorsa rotanı kaybetmeden ayrıl.",
           description:
-            "Yazini ve ilk odagini kendine gonderirsen geri donus noktan acik kalir.",
+            "Yazını ve ilk odağını kendine gönderirsen geri dönüş noktan açık kalır.",
           href: "#article-continuation",
-          commandLabel: "Rotami Koru",
+          commandLabel: "Rotamı Koru",
         },
       ],
     },
     continuation: {
-      title: "Bu rotayi kendine gonder.",
+      title: "Bu rotayı kendine gönder.",
       description:
-        "Buraya e-postani biraktiginda bulten listesine dusmezsin. Bu yazinin ana sonucunu, ilk ritim odagini ve uygun sonraki adimi korursun.",
-      deliverables: ["Yazinin kisa ozeti", "Ilk ritim odagi", "Sana uygun sonraki adim"],
-      buttonLabel: "Rotami Gonder",
+        "Buraya e-postanı bıraktığında bülten listesine düşmezsin. Bu yazının ana sonucunu, ilk ritim odağını ve uygun sonraki adımı korursun.",
+      deliverables: ["Yazının kısa özeti", "İlk ritim odağı", "Sana uygun sonraki adım"],
+      buttonLabel: "Rotamı Gönder",
       successMessage:
-        "Yazi rotasi kaydedildi. Gercek gonderim entegrasyonu sonraki asamada baglanacak.",
+        "Yazı rotası kaydedildi. Gerçek gönderim entegrasyonu sonraki aşamada bağlanacak.",
     },
   },
   {
-    title: "Kalori acigi ne kadar olmali?",
+    title: "Kalori açığı ne kadar olmalı?",
     slug: "kalori-acigi-ne-kadar-olmali",
     cluster: "nutrition_body_composition",
     summary:
-      "Kalori acigi ne kadar buyurse o kadar iyi degildir; fazla acik daha hizli degil, daha kirilgan bir surec uretir.",
+      "Kalori açığı ne kadar büyürse o kadar iyi değildir; fazla açık daha hızlı değil, daha kırılgan bir süreç üretir.",
     intent: "question",
     readingTime: "7 dk",
     continuationTarget: "continuation",
     opening: {
-      eyebrow: "Beslenme Karari",
-      title: "Kalori acigi, sonucu hizlandirmak icin degil surdurmek icin ayarlanir.",
+      eyebrow: "Beslenme Kararı",
+      title: "Kalori açığı, sonucu hızlandırmak için değil sürdürmek için ayarlanır.",
       description:
-        "Yag kaybi hedefinde en yaygin hata, acigi gereksiz buyutup performansi ve surekliligi bozmaktir.",
-      answerTitle: "Kisa cevap",
+        "Yağ kaybı hedefinde en yaygın hata, açığı gereksiz büyütüp performansı ve sürekliliği bozmaktır.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Iyi kalori acigi agresif gorunen degil, birkac hafta korunabilen aciktir. Hizli kayip arayisi, toparlanma ve davranis kalitesini zayiflatiyorsa sistem bozulur.",
+        "İyi kalori açığı agresif görünen değil, birkaç hafta korunabilen açıktır. Hızlı kayıp arayışı, toparlanma ve davranış kalitesini zayıflatıyorsa sistem bozulur.",
     },
     clarification: {
-      title: "Neden bu konu yanlis anlasiliyor?",
+      title: "Neden bu konu yanlış anlaşılıyor?",
       description:
-        "Kalori acigi cogu zaman matematik problemi gibi gorulur. Oysa davranis tarafi hesaba katilmadiginda tablo bozulur:",
+        "Kalori açığı çoğu zaman matematik problemi gibi görülür. Oysa davranış tarafı hesaba katılmadığında tablo bozulur:",
       points: [
-        "Fazla acik kisa surede daha cok yorgunluk ve terk riski uretir",
-        "Antrenman kalitesi dusunce yag kaybi disindaki kayiplar da buyuyebilir",
-        "Sadece tarti hizina bakmak, surecin korunabilirligini gormezden gelir",
+        "Fazla açık kısa sürede daha çok yorgunluk ve terk riski üretir",
+        "Antrenman kalitesi düşünce yağ kaybı dışındaki kayıplar da büyüyebilir",
+        "Sadece tartı hızına bakmak, sürecin korunabilirliğini görmezden gelir",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Enerji acigi teorik olarak yag kaybi icin gerekir; ancak pratikte acigin buyuklugu tek basina iyi sonuc anlamina gelmez. Istah, yorgunluk, toparlanma ve antrenman kalitesi de denklemde yer alir.",
-        "Bu nedenle vucut kompozisyonu tarafinda iyi karar, kagit ustunde maksimum acigi degil davranis ve performansla beraber tasinabilen acigi secmektir. Uzun vadede surdurulebilen strateji genelde daha iyi toplam sonuc verir.",
+        "Enerji açığı teorik olarak yağ kaybı için gerekir; ancak pratikte açığın büyüklüğü tek başına iyi sonuç anlamına gelmez. İştah, yorgunluk, toparlanma ve antrenman kalitesi de denklemde yer alır.",
+        "Bu nedenle vücut kompozisyonu tarafında iyi karar, kağıt üstünde maksimum açığı değil davranış ve performansla beraber taşınabilen açığı seçmektir. Uzun vadede sürdürülebilen strateji genelde daha iyi toplam sonuç verir.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Dogru acik, seni her gun yeniden savas moduna sokmaz; ritmi korumana izin verir.",
+        "Doğru açık, seni her gün yeniden savaş moduna sokmaz; ritmi korumana izin verir.",
       actions: [
-        "Acigi sonuca degil, iki-uc haftalik korunabilirligine gore degerlendir.",
-        "Agir yorgunluk ve antrenman dususu varsa once sisteme geri bak.",
-        "Tarti degisimi kadar gunluk istek, uyku ve toparlanma hissini de izle.",
+        "Açığı sonuca değil, iki-üç haftalık korunabilirliğine göre değerlendir.",
+        "Ağır yorgunluk ve antrenman düşüşü varsa önce sisteme geri bak.",
+        "Tartı değişimi kadar günlük istek, uyku ve toparlanma hissini de izle.",
       ],
     },
     systemBridge: {
-      title: "Bu soru sadece beslenme sorusu degil.",
+      title: "Bu soru sadece beslenme sorusu değil.",
       description:
-        "Kalori acigi tek basina karar verdirmez. Bilim ve Fitness sisteminde beslenme karari, antrenman yuku, toparlanma ve davranis surekliligiyle birlikte kurulur. Bu yuzden net cevap daha buyuk sistemin icinde anlam kazanir.",
+        "Kalori açığı tek başına karar verdirmez. Bilim ve Fitness sisteminde beslenme kararı, antrenman yükü, toparlanma ve davranış sürekliliğiyle birlikte kurulur. Bu yüzden net cevap daha büyük sistemin içinde anlam kazanır.",
       primaryCommand: {
         href: "/sistem",
-        label: "Beslenme Mantigini Sistemde Gor",
+        label: "Beslenme Mantığını Sistemde Gör",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Kendi Durumunu Ayir",
+        label: "Kendi Durumunu Ayır",
       },
     },
     stateNextStep: {
-      title: "Sonraki adim duruma gore degisir.",
+      title: "Sonraki adım duruma göre değişir.",
       description:
-        "Ayni kalori acigi tavsiyesi herkes icin ayni sonucu vermez. Kendi profilini asagidaki mantikla ayir:",
+        "Aynı kalori açığı tavsiyesi herkes için aynı sonucu vermez. Kendi profilini aşağıdaki mantıkla ayır:",
       routes: [
         {
-          label: "Cerceve",
-          title: "Yag kaybini hep sadece kalori acigi diye goruyorsan once sistemi oku.",
+          label: "Çerçeve",
+          title: "Yağ kaybını hep sadece kalori açığı diye görüyorsan önce sistemi oku.",
           description:
-            "Sorunu tek degiskende aramak, daha buyuk baglanti hatalarini saklayabilir.",
+            "Sorunu tek değişkende aramak, daha büyük bağlantı hatalarını saklayabilir.",
           href: "/sistem",
           commandLabel: "Sistemi Oku",
         },
         {
-          label: "Tani",
-          title: "Acik mi, sureklilik mi, toparlanma mi sorunu buyutuyor bilmiyorsan teste gec.",
+          label: "Tanı",
+          title: "Açık mı, süreklilik mi, toparlanma mı sorunu büyütüyor bilmiyorsan teste geç.",
           description:
-            "Test, yag kaybi hedefinde hangi darbogazin esas oldugunu daha net ayirir.",
+            "Test, yağ kaybı hedefinde hangi darboğazın esas olduğunu daha net ayırır.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
           label: "Devam",
-          title: "Bu karari daha sonra uygulayacaksan notu kendine gonder.",
+          title: "Bu kararı daha sonra uygulayacaksan notu kendine gönder.",
           description:
-            "Boylece yazidan ciktiktan sonra karar mantigin kaybolmaz.",
+            "Böylece yazıdan çıktıktan sonra karar mantığın kaybolmaz.",
           href: "#article-continuation",
           commandLabel: "Notu Koru",
         },
       ],
     },
     continuation: {
-      title: "Beslenme kararini kaybetme.",
+      title: "Beslenme kararını kaybetme.",
       description:
-        "Yazinin kisa sonucunu, kalori acigi icin ilk kontrol noktasini ve uygun sonraki rotayi kendine gonder.",
-      deliverables: ["Kalori acigi ozeti", "Ilk kontrol noktasi", "Sonraki rota notu"],
-      buttonLabel: "Notu Gonder",
+        "Yazının kısa sonucunu, kalori açığı için ilk kontrol noktasını ve uygun sonraki rotayı kendine gönder.",
+      deliverables: ["Kalori açığı özeti", "İlk kontrol noktası", "Sonraki rota notu"],
+      buttonLabel: "Notu Gönder",
       successMessage:
-        "Beslenme notu kaydedildi. Gercek e-posta teslimi sonraki asamada baglanacak.",
+        "Beslenme notu kaydedildi. Gerçek e-posta teslimi sonraki aşamada bağlanacak.",
     },
   },
   {
-    title: "Uyku duzelmeden performans neden artmaz?",
+    title: "Uyku düzelmeden performans neden artmaz?",
     slug: "uyku-duzelmeden-performans-neden-artmaz",
     cluster: "recovery_sleep",
     summary:
-      "Performans dususu her zaman program problemi degildir; uyku bozuksa yuklenme karari da dogru okunmaz.",
+      "Performans düşüşü her zaman program problemi değildir; uyku bozuksa yüklenme kararı da doğru okunmaz.",
     intent: "question",
     readingTime: "6 dk",
     continuationTarget: "test",
     opening: {
       eyebrow: "Toparlanma Sorusu",
-      title: "Uyku zayifsa performans sinyalleri gurultulu hale gelir.",
+      title: "Uyku zayıfsa performans sinyalleri gürültülü hale gelir.",
       description:
-        "Bir cok kullanici performans dususunu daha az efor sanir. Oysa uyku bozuk oldugunda beden dogru sinyal vermez.",
-      answerTitle: "Kisa cevap",
+        "Bir çok kullanıcı performans düşüşünü daha az efor sanır. Oysa uyku bozuk olduğunda beden doğru sinyal vermez.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Uyku duzelmeden performansin artmamasi normaldir. Cunku toparlanma sinyali zayifken antrenman kalitesi, algilanan efor ve tekrar kapasitesi ayni anda bozulur.",
+        "Uyku düzelmeden performansın artmaması normaldir. Çünkü toparlanma sinyali zayıfken antrenman kalitesi, algılanan efor ve tekrar kapasitesi aynı anda bozulur.",
     },
     clarification: {
-      title: "Sorun neden saklanir?",
+      title: "Sorun neden saklanır?",
       description:
-        "Uyku sorunu dogrudan gorulmeyebilir. Cogu zaman su sekillerde kendini gizler:",
+        "Uyku sorunu doğrudan görülmeyebilir. Çoğu zaman şu şekillerde kendini gizler:",
       points: [
-        "Programi surekli yetersiz sanmak",
-        "Yuksek efor hissini performans gelisimiyle karistirmak",
-        "Toparlanma dususunu motivasyon eksigi zannetmek",
+        "Programı sürekli yetersiz sanmak",
+        "Yüksek efor hissini performans gelişimiyle karıştırmak",
+        "Toparlanma düşüşünü motivasyon eksiği zannetmek",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Uyku; performans, toparlanma ve karar kalitesi icin temel sinyal katmanidir. Yetersiz uyku durumda antrenman verimi kadar acik hissi, stres toleransi ve tekrar kabiliyeti de etkilenir.",
-        "Bu nedenle performansi yorumlarken sadece program degiskenine bakmak eksik olur. Uyku zayifsa daha fazla yuk eklemek bazen ilerleme degil birikmis yorgunlugu buyutur.",
+        "Uyku; performans, toparlanma ve karar kalitesi için temel sinyal katmanıdır. Yetersiz uyku durumda antrenman verimi kadar açlık hissi, stres toleransı ve tekrar kabiliyeti de etkilenir.",
+        "Bu nedenle performansı yorumlarken sadece program değişkenine bakmak eksik olur. Uyku zayıfsa daha fazla yük eklemek bazen ilerleme değil birikmiş yorgunluğu büyütür.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Bu durumda ilk hamle daha sert program degil, sinyali temizleyecek toparlanma duzeltmesidir.",
+        "Bu durumda ilk hamle daha sert program değil, sinyali temizleyecek toparlanma düzeltmesidir.",
       actions: [
-        "Bir hafta boyunca uyku suresi ve uyandigindaki his ile antrenman hissini birlikte kaydet.",
-        "Toparlanma zayifsa yuk artirmak yerine karar degiskenlerini sadelestir.",
-        "Uyku duzelmeden performans yorumunu nihai karar gibi kullanma.",
+        "Bir hafta boyunca uyku süresi ve uyandığındaki his ile antrenman hissini birlikte kaydet.",
+        "Toparlanma zayıfsa yük artırmak yerine karar değişkenlerini sadeleştir.",
+        "Uyku düzelmeden performans yorumunu nihai karar gibi kullanma.",
       ],
     },
     systemBridge: {
-      title: "Bu konu performans sisteminin icinde anlam kazanir.",
+      title: "Bu konu performans sisteminin içinde anlam kazanır.",
       description:
-        "Bilim ve Fitness sisteminde uyku, ayrik bir wellness basligi degil; yuklenme, toparlanma ve davranis surekliligiyle ayni karar zincirinin parcasidir.",
+        "Bilim ve Fitness sisteminde uyku, ayrık bir wellness başlığı değil; yüklenme, toparlanma ve davranış sürekliliğiyle aynı karar zincirinin parçasıdır.",
       primaryCommand: {
         href: "/sistem",
-        label: "Toparlanma Mantigini Oku",
+        label: "Toparlanma Mantığını Oku",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Darbogazini Ayir",
+        label: "Darboğazını Ayır",
       },
     },
     stateNextStep: {
-      title: "Siradaki hareketin ihtiyacina gore degisir.",
+      title: "Sıradaki hareketin ihtiyacına göre değişir.",
       description:
-        "Uyku sorunu bazen bilgi, bazen ritim, bazen de performans hassasiyeti problemi olarak gorunur:",
+        "Uyku sorunu bazen bilgi, bazen ritim, bazen de performans hassasiyeti problemi olarak görünür:",
       routes: [
         {
-          label: "Cerceve",
-          title: "Uykuyu hala ikincil detay gibi goruyorsan once sistem baglantisini oku.",
+          label: "Çerçeve",
+          title: "Uykuyu hala ikincil detay gibi görüyorsan önce sistem bağlantısını oku.",
           description:
-            "Toparlanma, sistemde ayri bolum degil tum yuk kararlarinin sessiz belirleyicisidir.",
+            "Toparlanma, sistemde ayrı bölüm değil tüm yük kararlarının sessiz belirleyicisidir.",
           href: "/sistem",
-          commandLabel: "Baglantiyi Oku",
+          commandLabel: "Bağlantıyı Oku",
         },
         {
-          label: "Tani",
-          title: "Uyku mu, yuk mu, sureklilik mi seni geride tutuyor bilmiyorsan teste gec.",
+          label: "Tanı",
+          title: "Uyku mu, yük mü, süreklilik mi seni geride tutuyor bilmiyorsan teste geç.",
           description:
-            "Test, toparlanma sinyalini daha buyuk profil icinde yerlestirir.",
+            "Test, toparlanma sinyalini daha büyük profil içinde yerleştirir.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
           label: "Devam",
-          title: "Yorumu sonra kullanacaksan ana notlari simdi kaydet.",
+          title: "Yorumu sonra kullanacaksan ana notları şimdi kaydet.",
           description:
-            "Boylece toparlanma sinyalini tekrar gordugunde ayni noktadan devam edebilirsin.",
+            "Böylece toparlanma sinyalini tekrar gördüğünde aynı noktadan devam edebilirsin.",
           href: "#article-continuation",
           commandLabel: "Notu Koru",
         },
       ],
     },
     continuation: {
-      title: "Toparlanma notunu kendine gonder.",
+      title: "Toparlanma notunu kendine gönder.",
       description:
-        "Bu yazinin ozetini, ilk kontrol edecegin toparlanma sinyalini ve sana uygun sonraki adimi kendine gonder.",
-      deliverables: ["Toparlanma ozeti", "Ilk kontrol sinyali", "Sonraki rota"],
-      buttonLabel: "Notu Gonder",
+        "Bu yazının özetini, ilk kontrol edeceğin toparlanma sinyalini ve sana uygun sonraki adımı kendine gönder.",
+      deliverables: ["Toparlanma özeti", "İlk kontrol sinyali", "Sonraki rota"],
+      buttonLabel: "Notu Gönder",
       successMessage:
-        "Toparlanma notu kaydedildi. Gercek gonderim entegrasyonu sonraki asamada baglanacak.",
+        "Toparlanma notu kaydedildi. Gerçek gönderim entegrasyonu sonraki aşamada bağlanacak.",
     },
   },
   {
-    title: "Antrenman hacmi ne zaman artirilmali?",
+    title: "Antrenman hacmi ne zaman artırılmalı?",
     slug: "antrenman-hacmi-ne-zaman-artirilmali",
     cluster: "training_science",
     summary:
-      "Hacim, her tikanmada artirilmaz. Hareket kalitesi ve toparlanma tasimiyorsa daha cok set, daha cok ilerleme anlamina gelmez.",
+      "Hacim, her tıkanmada artırılmaz. Hareket kalitesi ve toparlanma taşımıyorsa daha çok set, daha çok ilerleme anlamına gelmez.",
     intent: "decision",
     readingTime: "7 dk",
     continuationTarget: "sistem",
     opening: {
-      eyebrow: "Antrenman Karari",
-      title: "Hacim artisi karar degil sonuc olmalidir.",
+      eyebrow: "Antrenman Kararı",
+      title: "Hacim artışı karar değil sonuç olmalıdır.",
       description:
-        "Bir cok kisi plateau gordugunde ilk refleks olarak daha fazla set ekler. Oysa hacim artisi ancak mevcut sistem tasiyorsa ise yarar.",
-      answerTitle: "Kisa cevap",
+        "Bir çok kişi plateau gördüğünde ilk refleks olarak daha fazla set ekler. Oysa hacim artışı ancak mevcut sistem taşıyorsa işe yarar.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Hacim, tekrar kalitesi korunuyor ve toparlanma sinyalleri saglamsa artirilir. Tikanma varken otomatik hacim eklemek genelde sorunu gizler.",
+        "Hacim, tekrar kalitesi korunuyor ve toparlanma sinyalleri sağlamsa artırılır. Tıkanma varken otomatik hacim eklemek genelde sorunu gizler.",
     },
     clarification: {
-      title: "Nerede hata yapiliyor?",
+      title: "Nerede hata yapılıyor?",
       description:
-        "Hacim kararinin yanlis kullanildigi uc tipik desen vardir:",
+        "Hacim kararının yanlış kullanıldığı üç tipik desen vardır:",
       points: [
-        "Hareket secimi zayifken daha fazla tekrar eklemek",
-        "Toparlanma duzeyi dusukken yuklenmeyi buyutmek",
-        "Plateau gordugunde once teshis yapmadan sadece miktari artirmak",
+        "Hareket seçimi zayıfken daha fazla tekrar eklemek",
+        "Toparlanma düzeyi düşükken yüklenmeyi büyütmek",
+        "Plateau gördüğünde önce teşhis yapmadan sadece miktarı artırmak",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Hacim artisi gelisim icin guclu bir arac olabilir; ancak tek basina iyi bir arac degildir. Uyaranin kalitesi, toparlanma kapasitesi ve teknik tekrar kalitesiyle birlikte deger kazanir.",
-        "Bu nedenle iyi antrenman planlamasi, hacmi varsayilan cozum olarak kullanmaz. Once hangi degiskenin tikandigini ayirir; sonra gerekiyorsa hacmi artirir.",
+        "Hacim artışı gelişim için güçlü bir araç olabilir; ancak tek başına iyi bir araç değildir. Uyaranın kalitesi, toparlanma kapasitesi ve teknik tekrar kalitesiyle birlikte değer kazanır.",
+        "Bu nedenle iyi antrenman planlaması, hacmi varsayılan çözüm olarak kullanmaz. Önce hangi değişkenin tıkandığını ayırır; sonra gerekiyorsa hacmi artırır.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Hacim karari vermeden once tasiyici sinyalleri temizlemek daha dogru baslangictir.",
+        "Hacim kararı vermeden önce taşıyıcı sinyalleri temizlemek daha doğru başlangıçtır.",
       actions: [
-        "Mevcut tekrar kalitesini ve toparlanma hissini bir hafta gozlemle.",
-        "Plateau varsa once hareket secimi ve yorgunluk tarafini ayir.",
-        "Hacim artisina ancak mevcut sistemin bunu kaldirdigini gordugunde gec.",
+        "Mevcut tekrar kalitesini ve toparlanma hissini bir hafta gözlemle.",
+        "Plateau varsa önce hareket seçimi ve yorgunluk tarafını ayır.",
+        "Hacim artışına ancak mevcut sistemin bunu kaldırdığını gördüğünde geç.",
       ],
     },
     systemBridge: {
-      title: "Bu karar, sadece set sayisi karari degildir.",
+      title: "Bu karar, sadece set sayısı kararı değildir.",
       description:
-        "Bilim ve Fitness sisteminde antrenman bilimi, beslenme ve toparlanmadan bagimsiz okunmaz. Hacim karari da bu yuzden daha buyuk yuk yonetimi icinde degerlendirilir.",
+        "Bilim ve Fitness sisteminde antrenman bilimi, beslenme ve toparlanmadan bağımsız okunmaz. Hacim kararı da bu yüzden daha büyük yük yönetimi içinde değerlendirilir.",
       primaryCommand: {
         href: "/sistem",
-        label: "Yuk Mantigini Oku",
+        label: "Yük Mantığını Oku",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Profilini Ayir",
+        label: "Profilini Ayır",
       },
     },
     stateNextStep: {
-      title: "Sonraki adim her profil icin ayni degil.",
+      title: "Sonraki adım her profil için aynı değil.",
       description:
-        "Bazi kullanicida sorun bilgi eksigi, bazisinda toparlanma, bazisinda ise plateau teshisidir:",
+        "Bazı kullanıcıda sorun bilgi eksiği, bazısında toparlanma, bazısında ise plateau teşhisidir:",
       routes: [
         {
-          label: "Cerceve",
-          title: "Hacim konusunu hala yalnizca sayi olarak goruyorsan once sistemi oku.",
+          label: "Çerçeve",
+          title: "Hacim konusunu hala yalnızca sayı olarak görüyorsan önce sistemi oku.",
           description:
-            "Hacim, daha buyuk yuk yonetimi mantigi icinde yerini bulur.",
+            "Hacim, daha büyük yük yönetimi mantığı içinde yerini bulur.",
           href: "/sistem",
           commandLabel: "Sistemi Oku",
         },
         {
-          label: "Tani",
-          title: "Hacim artisi mi, toparlanma mi, teknik mi sorun bilmiyorsan teste gec.",
+          label: "Tanı",
+          title: "Hacim artışı mı, toparlanma mı, teknik mi sorun bilmiyorsan teste geç.",
           description:
-            "Test, plateau ve yuk kararlarini daha net profile ayirir.",
+            "Test, plateau ve yük kararlarını daha net profile ayırır.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
           label: "Devam",
-          title: "Karari daha sonra uygulayacaksan ciktini kendine gonder.",
+          title: "Kararı daha sonra uygulayacaksan çıktını kendine gönder.",
           description:
-            "Boylece sonraki antrenman planina dagilmadan donersin.",
+            "Böylece sonraki antrenman planına dağılmadan dönersin.",
           href: "#article-continuation",
           commandLabel: "Notu Koru",
         },
       ],
     },
     continuation: {
-      title: "Antrenman kararini kaydet.",
+      title: "Antrenman kararını kaydet.",
       description:
-        "Yazinin kisa sonucunu, hacim artisi oncesi kontrol edecegin noktayi ve sonraki rotayi kendine gonder.",
-      deliverables: ["Hacim ozeti", "Kontrol listesi", "Sonraki rota"],
-      buttonLabel: "Karari Gonder",
+        "Yazının kısa sonucunu, hacim artışı öncesi kontrol edeceğin noktayı ve sonraki rotayı kendine gönder.",
+      deliverables: ["Hacim özeti", "Kontrol listesi", "Sonraki rota"],
+      buttonLabel: "Kararı Gönder",
       successMessage:
-        "Antrenman notu kaydedildi. Gercek gonderim entegrasyonu sonraki asamada baglanacak.",
+        "Antrenman notu kaydedildi. Gerçek gönderim entegrasyonu sonraki aşamada bağlanacak.",
     },
   },
   {
@@ -521,197 +521,197 @@ export const authorityArticles: AuthorityArticle[] = [
     slug: "performans-ilerlemiyorsa-ilk-neyi-kontrol-etmeli",
     cluster: "performance_optimization",
     summary:
-      "Performans dususu tek bir nedene baglanmaz; ilk kontrol, yuku degil sinyalin kendisini dogru okumaktir.",
+      "Performans düşüşü tek bir nedene bağlanmaz; ilk kontrol, yükü değil sinyalin kendisini doğru okumaktır.",
     intent: "decision",
     readingTime: "7 dk",
     continuationTarget: "test",
     opening: {
       eyebrow: "Optimizasyon Sorusu",
-      title: "Performans durdugunda ilk bakis noktasi daha sert antrenman degildir.",
+      title: "Performans durduğunda ilk bakış noktası daha sert antrenman değildir.",
       description:
-        "Performans dususunu gorur gormez daha fazla yuk eklemek ya da sistemi degistirmek, problemi daha da bulanik hale getirebilir.",
-      answerTitle: "Kisa cevap",
+        "Performans düşüşünü görür görmez daha fazla yük eklemek ya da sistemi değiştirmek, problemi daha da bulanık hale getirebilir.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Ilk kontrol edilmesi gereken sey, sinyalin hangi katmanda bozuldugudur: toparlanma, yuklenme, ritim ya da hedef uyumu. Dogru teshis olmadan yapilan degisiklik, genelde daha fazla gurultu uretir.",
+        "İlk kontrol edilmesi gereken şey, sinyalin hangi katmanda bozulduğudur: toparlanma, yüklenme, ritim ya da hedef uyumu. Doğru teşhis olmadan yapılan değişiklik, genelde daha fazla gürültü üretir.",
     },
     clarification: {
-      title: "Yanlis ilk tepkiler",
+      title: "Yanlış ilk tepkiler",
       description:
-        "Performans dususunde en sik gorulen uc yanlis tepki sunlardir:",
+        "Performans düşüşünde en sık görülen üç yanlış tepki şunlardır:",
       points: [
-        "Tek seferde fazla degiskeni degistirmek",
-        "Yuku hemen artirip asagidaki sorunu gizlemek",
-        "Toparlanma ve davranis tarafini yok saymak",
+        "Tek seferde fazla değişkeni değiştirmek",
+        "Yükü hemen artırıp aşağıdaki sorunu gizlemek",
+        "Toparlanma ve davranış tarafını yok saymak",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Performans yalnizca kas ya da kondisyon ciktisi degildir; sinyal kalitesiyle ilgilidir. Uykudan yuklenmeye, hedef seciminden tekrar ritmine kadar bircok katman bu sinyali etkiler.",
-        "Bu nedenle iyi optimizasyon, anlik agresyon degil karar sirasidir. Ilk adim daha cok degil daha net okumaktir. Aksi halde dogru sorunu yanlis yerde ararsin.",
+        "Performans yalnızca kas ya da kondisyon çıktısı değildir; sinyal kalitesiyle ilgilidir. Uykudan yüklenmeye, hedef seçiminden tekrar ritmine kadar birçok katman bu sinyali etkiler.",
+        "Bu nedenle iyi optimizasyon, anlık agresyon değil karar sırasıdır. İlk adım daha çok değil daha net okumaktır. Aksi halde doğru sorunu yanlış yerde ararsın.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Bir anda her seyi degistirmek yerine asagidaki sira daha temiz sonuc verir:",
+        "Bir anda her şeyi değiştirmek yerine aşağıdaki sıra daha temiz sonuç verir:",
       actions: [
         "Son bir haftadaki uyku, yorgunluk ve tekrar kalitesini yan yana koy.",
-        "Hedefe hizmet etmeyen yukleri gecici olarak azalt.",
-        "Tek bir performans gostergesini sec ve yalnizca onu izle.",
+        "Hedefe hizmet etmeyen yükleri geçici olarak azalt.",
+        "Tek bir performans göstergesini seç ve yalnızca onu izle.",
       ],
     },
     systemBridge: {
-      title: "Optimizasyon, temelden kopuk calismaz.",
+      title: "Optimizasyon, temelden kopuk çalışmaz.",
       description:
-        "Bilim ve Fitness sisteminde performans, temel duzen kurulmadan ayri bir katman olarak ele alinmaz. Bu konu ancak sistemin onceki katmanlariyla birlikte netlesir.",
+        "Bilim ve Fitness sisteminde performans, temel düzen kurulmadan ayrı bir katman olarak ele alınmaz. Bu konu ancak sistemin önceki katmanlarıyla birlikte netleşir.",
       primaryCommand: {
         href: "/sistem",
-        label: "Sistemin Sirasini Oku",
+        label: "Sistemin Sırasını Oku",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Profilini Dogrula",
+        label: "Profilini Doğrula",
       },
     },
     stateNextStep: {
-      title: "Ilerleme durdugunda sonraki adim acik olmali.",
+      title: "İlerleme durduğunda sonraki adım açık olmalı.",
       description:
-        "Asagidaki uc yol, performans dususunu daha az gurultu ile ayirmana yardim eder:",
+        "Aşağıdaki üç yol, performans düşüşünü daha az gürültü ile ayırmana yardım eder:",
       routes: [
         {
-          label: "Cerceve",
-          title: "Optimizasyona erken gectiginden supheleniyorsan once sistemi oku.",
+          label: "Çerçeve",
+          title: "Optimizasyona erken geçtiğinden şüpheleniyorsan önce sistemi oku.",
           description:
-            "Bazen sorun ileri seviye detay degil, onceki katmanlarin zayifligidir.",
+            "Bazen sorun ileri seviye detay değil, önceki katmanların zayıflığıdır.",
           href: "/sistem",
-          commandLabel: "Sirayi Oku",
+          commandLabel: "Sırayı Oku",
         },
         {
-          label: "Tani",
-          title: "Hangi darbogazin baskin oldugunu ayirmak icin teste gec.",
+          label: "Tanı",
+          title: "Hangi darboğazın baskın olduğunu ayırmak için teste geç.",
           description:
-            "Test, performans dususunun hangi profil icinde anlam kazandigini ayirir.",
+            "Test, performans düşüşünün hangi profil içinde anlam kazandığını ayırır.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
           label: "Devam",
-          title: "Yorumu kaybetmeden sonra donmek istiyorsan notu koru.",
+          title: "Yorumu kaybetmeden sonra dönmek istiyorsan notu koru.",
           description:
-            "Boylece optimizasyon rotasina ayni netlikle geri gelirsin.",
+            "Böylece optimizasyon rotasına aynı netlikle geri gelirsin.",
           href: "#article-continuation",
-          commandLabel: "Rotami Koru",
+          commandLabel: "Rotamı Koru",
         },
       ],
     },
     continuation: {
       title: "Optimizasyon notunu sakla.",
       description:
-        "Yazinin kisa yorumunu, once kontrol edecegin sinyali ve uygun sonraki rotayi kendine gonder.",
-      deliverables: ["Optimizasyon ozeti", "Ilk sinyal kontrolu", "Sonraki rota"],
-      buttonLabel: "Notu Gonder",
+        "Yazının kısa yorumunu, önce kontrol edeceğin sinyali ve uygun sonraki rotayı kendine gönder.",
+      deliverables: ["Optimizasyon özeti", "İlk sinyal kontrolü", "Sonraki rota"],
+      buttonLabel: "Notu Gönder",
       successMessage:
-        "Optimizasyon notu kaydedildi. Gercek gonderim entegrasyonu sonraki asamada baglanacak.",
+        "Optimizasyon notu kaydedildi. Gerçek gönderim entegrasyonu sonraki aşamada bağlanacak.",
     },
   },
   {
-    title: "Ac karnina kardiyo yag yakimini gercekten artirir mi?",
+    title: "Aç karnına kardiyo yağ yakımını gerçekten artırır mı?",
     slug: "ac-karnina-kardiyo-yag-yakimini-gercekten-artirir-mi",
     cluster: "myths_clarifications",
     summary:
-      "Ac karnina kardiyo, tek basina daha iyi yag kaybi garantisi vermez; toplam sistem bozuksa bu detay anlamini kaybeder.",
+      "Aç karnına kardiyo, tek başına daha iyi yağ kaybı garantisi vermez; toplam sistem bozuksa bu detay anlamını kaybeder.",
     intent: "clarification",
     readingTime: "5 dk",
     continuationTarget: "sistem",
     opening: {
-      eyebrow: "Mit Kontrolu",
-      title: "Ac karnina kardiyo, sonucu tek basina ust duzeye tasiyan gizli arac degil.",
+      eyebrow: "Mit Kontrolü",
+      title: "Aç karnına kardiyo, sonucu tek başına üst düzeye taşıyan gizli araç değil.",
       description:
-        "Bu konu uzun sure buyutuldu; ancak pratikte asil belirleyici olan toplam enerji dengesi, surdurulebilirlik ve uygulama kalitesidir.",
-      answerTitle: "Kisa cevap",
+        "Bu konu uzun süre büyütüldü; ancak pratikte asıl belirleyici olan toplam enerji dengesi, sürdürülebilirlik ve uygulama kalitesidir.",
+      answerTitle: "Kısa cevap",
       answer:
-        "Ac karnina kardiyo otomatik olarak daha iyi yag kaybi uretmez. Toplam sistem zayifsa zamanlama detayi, buyuk resmi duzeltmez.",
+        "Aç karnına kardiyo otomatik olarak daha iyi yağ kaybı üretmez. Toplam sistem zayıfsa zamanlama detayı, büyük resmi düzeltmez.",
     },
     clarification: {
-      title: "Miti neden cekici geliyor?",
+      title: "Miti neden çekici geliyor?",
       description:
-        "Cunku teknik gibi gorunen detaylar kontrol hissi verir. Oysa su hatalar devrede kalir:",
+        "Çünkü teknik gibi görünen detaylar kontrol hissi verir. Oysa şu hatalar devrede kalır:",
       points: [
-        "Toplam enerji ve davranis surekliligini ikinci plana itmek",
-        "Detay degiskene buyuk neden rolu yuklemek",
-        "Yontemi gosterisli ama uygulanmasi zor hale getirmek",
+        "Toplam enerji ve davranış sürekliliğini ikinci plana itmek",
+        "Detay değişkene büyük neden rolü yüklemek",
+        "Yöntemi gösterişli ama uygulanması zor hale getirmek",
       ],
     },
     explanation: {
       title: "Bilimsel taraf",
       paragraphs: [
-        "Yag kaybi sonucunda belirleyici olan ana tablo toplam enerji dengesi ve surecin korunabilirligidir. Kardiyonun zamanlamasi bazi kisiler icin tolere edilebilir olabilir; ancak bu, sistemi tek basina tasiyan faktor degildir.",
-        "Bu nedenle detay degiskenler ancak temel katmanlar saglamken anlam kazanir. Temel sorun ritim, kalori acigi ya da toparlanmayken miti merkez yapmak yanlis oncelik uretir.",
+        "Yağ kaybı sonucunda belirleyici olan ana tablo toplam enerji dengesi ve sürecin korunabilirliğidir. Kardiyonun zamanlaması bazı kişiler için tolere edilebilir olabilir; ancak bu, sistemi tek başına taşıyan faktör değildir.",
+        "Bu nedenle detay değişkenler ancak temel katmanlar sağlamken anlam kazanır. Temel sorun ritim, kalori açığı ya da toparlanmayken miti merkez yapmak yanlış öncelik üretir.",
       ],
     },
     practical: {
       title: "Pratik yorum",
       description:
-        "Burada ilk soru 'ac mi tok mu' degil, 'bu stratejiyi koruyabiliyor muyum' sorusudur.",
+        "Burada ilk soru 'aç mı tok mu' değil, 'bu stratejiyi koruyabiliyor muyum' sorusudur.",
       actions: [
-        "Kardiyo zamanlamasini toplam planin tasinabilirligine gore sec.",
-        "Asil sonucu belirleyen ana katmanlari once sabitle.",
-        "Detaylari ancak sistem calisiyorsa buyut.",
+        "Kardiyo zamanlamasını toplam planın taşınabilirliğine göre seç.",
+        "Asıl sonucu belirleyen ana katmanları önce sabitle.",
+        "Detayları ancak sistem çalışıyorsa büyüt.",
       ],
     },
     systemBridge: {
       title: "Dar detaylar sistemi ikame etmez.",
       description:
-        "Bilim ve Fitness sistemi, mitleri tek tek curutmek icin degil; kullanicinin oncelik sirasini duzeltmek icin vardir. Bu soru da daha buyuk oncelik zincirinin icinde anlam kazanir.",
+        "Bilim ve Fitness sistemi, mitleri tek tek çürütmek için değil; kullanıcının öncelik sırasını düzeltmek için vardır. Bu soru da daha büyük öncelik zincirinin içinde anlam kazanır.",
       primaryCommand: {
         href: "/sistem",
-        label: "Oncelik Sirasini Oku",
+        label: "Öncelik Sırasını Oku",
       },
       secondaryCommand: {
         href: "/test",
-        label: "Profilini Ayir",
+        label: "Profilini Ayır",
       },
     },
     stateNextStep: {
-      title: "Siradaki adim, nerede karistigina bagli.",
+      title: "Sıradaki adım, nerede karıştığına bağlı.",
       description:
-        "Mit temizlendiginde bile herkesin sonraki adimi ayni olmaz:",
+        "Mit temizlendiğinde bile herkesin sonraki adımı aynı olmaz:",
       routes: [
         {
-          label: "Cerceve",
-          title: "Detaylari ana strateji yerine koyuyorsan once sistemi oku.",
+          label: "Çerçeve",
+          title: "Detayları ana strateji yerine koyuyorsan önce sistemi oku.",
           description:
-            "Bazen ihtiyac duydugun sey daha fazla ipucu degil, daha dogru oncelik sirasidir.",
+            "Bazen ihtiyaç duyduğun şey daha fazla ipucu değil, daha doğru öncelik sırasıdır.",
           href: "/sistem",
-          commandLabel: "Onceligi Oku",
+          commandLabel: "Önceliği Oku",
         },
         {
-          label: "Tani",
-          title: "Asil darbogazin nerede oldugunu ayirmak icin teste gec.",
+          label: "Tanı",
+          title: "Asıl darboğazın nerede olduğunu ayırmak için teste geç.",
           description:
-            "Test, mitin altindaki gercek ihtiyaci daha net gosterir.",
+            "Test, mitin altındaki gerçek ihtiyacı daha net gösterir.",
           href: "/test",
-          commandLabel: "Teste Gec",
+          commandLabel: "Teste Geç",
         },
         {
           label: "Devam",
-          title: "Sonucu sonra kullanacaksan yaziyi kendine gonder.",
+          title: "Sonucu sonra kullanacaksan yazıyı kendine gönder.",
           description:
-            "Boylece detay ile temel arasindaki ayrimi kaybetmezsin.",
+            "Böylece detay ile temel arasındaki ayrımı kaybetmezsin.",
           href: "#article-continuation",
           commandLabel: "Notu Koru",
         },
       ],
     },
     continuation: {
-      title: "Mit notunu kendine gonder.",
+      title: "Mit notunu kendine gönder.",
       description:
-        "Bu yazinin ozetini, ilk bakman gereken temel katmani ve sonraki rotayi e-postana kaydet.",
-      deliverables: ["Mit ozeti", "Ilk temel kontrol", "Sonraki rota"],
-      buttonLabel: "Notu Gonder",
+        "Bu yazının özetini, ilk bakman gereken temel katmanı ve sonraki rotayı e-postana kaydet.",
+      deliverables: ["Mit özeti", "İlk temel kontrol", "Sonraki rota"],
+      buttonLabel: "Notu Gönder",
       successMessage:
-        "Mit notu kaydedildi. Gercek gonderim entegrasyonu sonraki asamada baglanacak.",
+        "Mit notu kaydedildi. Gerçek gönderim entegrasyonu sonraki aşamada bağlanacak.",
     },
   },
 ];
@@ -752,40 +752,40 @@ export function buildArticleContinuationConfig(article: AuthorityArticle): Conti
 
   const targetMessage =
     article.continuationTarget === "sistem"
-      ? "Kaydi actiginda seni once /sistem omurgasina geri getirecek net bir not da icinde olacak."
+      ? "Kaydı açtığında seni önce /sistem omurgasına geri getirecek net bir not da içinde olacak."
       : article.continuationTarget === "test"
-        ? "Kaydi actiginda seni tani katmanina geri tasiyacak en net not da icinde olacak."
-        : "Kaydi actiginda yazidan cikan ana rota ve uygulama notu ayni yerde seni bekleyecek.";
+        ? "Kaydı açtığında seni tanı katmanına geri taşıyacak en net not da içinde olacak."
+        : "Kaydı açtığında yazıdan çıkan ana rota ve uygulama notu aynı yerde seni bekleyecek.";
 
   return {
     title: article.continuation.title,
-    description: `${article.continuation.description} ${cluster?.label ?? "Bu cluster"} icinde bu yazi ${intent} tipi bir karari kapatir. ${targetMessage}`,
+    description: `${article.continuation.description} ${cluster?.label ?? "Bu cluster"} içinde bu yazı ${intent} tipi bir kararı kapatır. ${targetMessage}`,
     whyNow:
       article.continuationTarget === "test"
-        ? "Cunku bu yazi sende bir sey acmissa sonraki en dogru hamle taniya hemen gecmek olur."
+        ? "Çünkü bu yazı sende bir şey açmışsa sonraki en doğru hamle tanıya hemen geçmek olur."
         : article.continuationTarget === "sistem"
-          ? "Cunku dar soru buyuk omurgaya baglanmaya hazirken beklemek konuyu yeniden parcali hale getirir."
-          : "Cunku karar nettlesirken notu simdi korumak daha sonra ayni netlige donmeyi kolaylastirir.",
+          ? "Çünkü dar soru büyük omurgaya bağlanmaya hazırken beklemek konuyu yeniden parçalı hale getirir."
+          : "Çünkü karar netleşirken notu şimdi korumak daha sonra aynı netliğe dönmeyi kolaylaştırır.",
     delayCost:
       article.continuationTarget === "test"
-        ? "Beklersen konu sende yine teori olarak kalir ve kendi durumuna gecmez."
+        ? "Beklersen konu sende yine teori olarak kalır ve kendi durumuna geçmez."
         : article.continuationTarget === "sistem"
-          ? "Beklersen ayni soruyu yine dar bir problem gibi okuyup daha buyuk deseni kacirabilirsin."
-          : "Beklersen bu yazidan cikan karar notu dagilir ve geri donuste sifirdan dusunursun.",
+          ? "Beklersen aynı soruyu yine dar bir problem gibi okuyup daha büyük deseni kaçırabilirsin."
+          : "Beklersen bu yazıdan çıkan karar notu dağılır ve geri dönüşte sıfırdan düşünürsün.",
     deliverables: article.continuation.deliverables,
     buttonLabel: article.continuation.buttonLabel,
     successMessage: article.continuation.successMessage,
     helperText:
       article.continuationTarget === "test"
-        ? "Bu alan bulten icin degil; sorudan taniya gecis enerjisini kaybetmemen icin hazirlandi."
+        ? "Bu alan bülten için değil; sorudan tanıya geçiş enerjisini kaybetmemen için hazırlandı."
         : article.continuationTarget === "sistem"
-          ? "Bu alan bulten icin degil; dar sorudan buyuk omurgaya donerken notunu koruman icin hazirlandi."
-          : "Bu alan bulten icin degil; yazidan cikan karar notunu sonra ayni netlikle acabilmen icin hazirlandi.",
+          ? "Bu alan bülten için değil; dar sorudan büyük omurgaya dönerken notunu koruman için hazırlandı."
+          : "Bu alan bülten için değil; yazıdan çıkan karar notunu sonra aynı netlikle açabilmen için hazırlandı.",
     inputPlaceholder:
       article.continuationTarget === "test"
-        ? "Teste donus yolunu gonderecegimiz e-posta"
+        ? "Teste dönüş yolunu göndereceğimiz e-posta"
         : article.continuationTarget === "sistem"
-          ? "Sistem notunu gonderecegimiz e-posta"
-          : "Karar notunu gonderecegimiz e-posta",
+          ? "Sistem notunu göndereceğimiz e-posta"
+          : "Karar notunu göndereceğimiz e-posta",
   };
 }

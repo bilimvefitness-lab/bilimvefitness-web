@@ -11,13 +11,13 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Uygulama",
   description:
-    "Bilim ve Fitness uygulama sayfasi; uygulamayi bagimsiz bir urun degil, karar, takip ve sureklilik tasiyan uygulama katmani olarak konumlandirir.",
+    "Bilim ve Fitness uygulama sayfası; uygulamayı bağımsız bir ürün değil, karar, takip ve süreklilik taşıyan uygulama katmanı olarak konumlandırır.",
   path: "/uygulama",
   keywords: [
-    "fitness uygulamasi",
+    "fitness uygulaması",
     "antrenman takibi",
-    "fitness sureklilik sistemi",
-    "erken erisim fitness uygulamasi",
+    "fitness süreklilik sistemi",
+    "erken erişim fitness uygulaması",
   ],
 });
 
@@ -57,8 +57,8 @@ export default function AppPage() {
         <div className="grid gap-10 lg:grid-cols-[0.92fr,1.08fr]">
           <HeadingSystem
             eyebrow="Bu Katman Ne Yapar"
-            title="Uygulama, karar destegi, takip ve yonlendirmeyi ayni yerde toplar."
-            description="Amaci daha cok ozellik gostermek degil; bilgiyi gunluk tekrar ritmine baglamaktir."
+            title="Uygulama, karar desteği, takip ve yönlendirmeyi aynı yerde toplar."
+            description="Amacı daha çok özellik göstermek değil; bilgiyi günlük tekrar ritmine bağlamaktır."
             as="h2"
           />
           <TrustBlock items={appPageContent.whatItDoes} />
@@ -112,8 +112,8 @@ export default function AppPage() {
         <div className="grid gap-10 lg:grid-cols-[0.92fr,1.08fr]">
           <HeadingSystem
             eyebrow="Sistemdeki Yeri"
-            title="Uygulama, test ve sistem mantigini gunluk uygulama duzenine baglar."
-            description="Bu sayfa bir uygulama vaadi degil; hangi kosulda neden gerekli oldugunu acik sekilde sabitler."
+            title="Uygulama, test ve sistem mantığını günlük uygulama düzenine bağlar."
+            description="Bu sayfa bir uygulama vaadi değil; hangi koşulda neden gerekli olduğunu açık şekilde sabitler."
             as="h2"
           />
           <div className="grid gap-4">
@@ -135,8 +135,8 @@ export default function AppPage() {
         <div className="space-y-8 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
             eyebrow="Testten Gelen Rota"
-            title="Uygulama katmani her segment icin acilmaz; belirli profillerde anlam kazanir."
-            description="Dinamik eslestirme sonraki asamada baglanacak. Simdilik hangi test profillerinin uygulama ile daha dogal eslestigini sabitliyoruz."
+            title="Uygulama katmanı her segment için açılmaz; belirli profillerde anlam kazanır."
+            description="Dinamik eşleştirme sonraki aşamada bağlanacak. Şimdilik hangi test profillerinin uygulama ile daha doğal eşleştiğini sabitliyoruz."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-3">

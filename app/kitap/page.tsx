@@ -12,13 +12,13 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Kitap",
   description:
-    "Bilim ve Fitness kitap sayfasi; kitabi genel fitness tavsiyesi degil, netlik, yapi ve yon kuran ilk sistem katmani olarak konumlandirir.",
+    "Bilim ve Fitness kitap sayfası; kitabı genel fitness tavsiyesi değil, netlik, yapı ve yön kuran ilk sistem katmanı olarak konumlandırır.",
   path: "/kitap",
   keywords: [
-    "fitness kitabi",
-    "bilimsel fitness kitabi",
-    "fitness baslangic sistemi",
-    "antrenman kitabi",
+    "fitness kitabı",
+    "bilimsel fitness kitabı",
+    "fitness başlangıç sistemi",
+    "antrenman kitabı",
   ],
 });
 
@@ -75,9 +75,9 @@ export default function BookPage() {
       <SectionWrapper surface="panel">
         <div className="space-y-8 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
-            eyebrow="Ne Kazanirsin"
-            title="Kitap, soyut fayda degil daha sakin bir ilk duzen uretir."
-            description="Buradaki kazanc motivasyon degil; daha temiz siralama, daha dusuk karar yorgunlugu ve daha kontrollu giristir."
+            eyebrow="Ne Kazanırsın"
+            title="Kitap, soyut fayda değil daha sakin bir ilk düzen üretir."
+            description="Buradaki kazanç motivasyon değil; daha temiz sıralama, daha düşük karar yorgunluğu ve daha kontrollü giriştir."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
@@ -141,8 +141,8 @@ export default function BookPage() {
         <div className="grid gap-10 lg:grid-cols-[0.92fr,1.08fr]">
           <HeadingSystem
             eyebrow="Sistemdeki Yeri"
-            title="Kitap, /sistem ve /test ile birlikte calisan ilk uygulama katmanidir."
-            description="Bu sayfa tek basina ikna olmaya calismaz. Sistemin mantigi, testin tani gucu ve kitabin giris duzeni ayni akista calisir."
+            title="Kitap, /sistem ve /test ile birlikte çalışan ilk uygulama katmanıdır."
+            description="Bu sayfa tek başına ikna olmaya çalışmaz. Sistemin mantığı, testin tanı gücü ve kitabın giriş düzeni aynı akışta çalışır."
             as="h2"
           />
           <div className="grid gap-4">
@@ -164,8 +164,8 @@ export default function BookPage() {
         <div className="space-y-8 px-6 py-10 lg:px-10 lg:py-14">
           <HeadingSystem
             eyebrow="Testten Gelen Rota"
-            title="Bu sayfa ozellikle belirli test profillerinde anlam kazanir."
-            description="Dinamik eslestirme sonraki asamada baglanacak. Simdilik hangi segmentlerin kitapla dogal olarak ortustugunu acik sekilde sabitliyoruz."
+            title="Bu sayfa özellikle belirli test profillerinde anlam kazanır."
+            description="Dinamik eşleştirme sonraki aşamada bağlanacak. Şimdilik hangi segmentlerin kitapla doğal olarak örtüştüğünü açık şekilde sabitliyoruz."
             as="h2"
           />
           <div className="grid gap-4 md:grid-cols-3">
@@ -200,7 +200,7 @@ export default function BookPage() {
       <SectionWrapper className="border-none">
         <div className="rounded-[2.5rem] border border-line/10 bg-ink px-6 py-12 text-white shadow-panel sm:px-9 lg:px-14 lg:py-16">
           <HeadingSystem
-            eyebrow="Sonraki Adim"
+            eyebrow="Sonraki Adım"
             title={bookPageContent.finalCta.title}
             description={bookPageContent.finalCta.description}
             as="h2"
