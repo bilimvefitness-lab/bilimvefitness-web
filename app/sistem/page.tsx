@@ -189,6 +189,39 @@ export default function SystemPage() {
         </div>
       </SectionWrapper>
 
+      <SectionWrapper>
+        <div className="space-y-8">
+          <HeadingSystem
+            eyebrow="Dayanacaklar"
+            title="Bu sistem varsayımlar üzerine değil, kanıtlanmış ilkeler üzerine kurulur."
+            description="Metodoloji; yük yönetimi, davranış psikolojisi ve biyomekanik temellere dayanır."
+            as="h2"
+          />
+          <div className="grid gap-4 lg:grid-cols-2">
+            <div className="rounded-[1.5rem] border border-line/10 bg-white/80 p-6">
+              <p className="text-[11px] uppercase tracking-[0.2em] text-ink/48">Bilimsel Temeller</p>
+              <ul className="mt-4 space-y-4 text-sm leading-7 text-ink/72">
+                <li>
+                  <span className="font-semibold text-ink">Progressive Overload:</span> Yükün kontrollü artışı (ASCM, 2018).
+                </li>
+                <li>
+                  <span className="font-semibold text-ink">Stimulus-to-Fatigue Ratio (SFR):</span> Verim/Yorgunluk dengesi optimizasyonu.
+                </li>
+                <li>
+                  <span className="font-semibold text-ink">Behavioral Priming:</span> Küçük tekrar birimleriyle süreklilik inşası.
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-[1.5rem] border border-line/10 bg-white/80 p-6">
+              <p className="text-[11px] uppercase tracking-[0.2em] text-ink/48">Referanslar</p>
+              <p className="mt-4 text-xs italic leading-6 text-ink/56">
+                Sistemin karar motoru; ISSN (2022) beslenme raporları, Baechle & Earle (NSCA) antrenman standartları ve davranış bilimindeki güncel modeller (Fogg Behavior Model) sentezlenerek oluşturulmuştur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </SectionWrapper>
+
       <SectionWrapper className="border-b border-line/10">
         <div className="rounded-[2.25rem] bg-ink px-6 py-14 text-white sm:px-10 lg:px-14">
           <HeadingSystem

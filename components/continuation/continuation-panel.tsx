@@ -109,7 +109,21 @@ export function ContinuationPanel({
       </div>
 
       <p className="mt-4 text-sm leading-7 text-ink/62" role="status" aria-live="polite">
-        {saved ? config.successMessage : config.helperText}
+        {saved ? (
+          <span className="flex flex-col gap-2">
+            <span>{config.successMessage}</span>
+            {config.successNextStep ? (
+              <a
+                href={config.successNextStep.href}
+                className="font-medium text-ink underline underline-offset-4"
+              >
+                {config.successNextStep.label}
+              </a>
+            ) : null}
+          </span>
+        ) : (
+          config.helperText
+        )}
       </p>
     </form>
   );

@@ -31,8 +31,7 @@ export default function HomePage() {
             as="h1"
           >
             <CtaCluster
-              primary={{ href: "/test", label: "Teste Gir" }}
-              secondary={{ href: "/sistem", label: "Sistemi Oku", tone: "secondary" }}
+              primary={{ href: "/test", label: "Teste Gir ve İlerle" }}
               hint="İlk adım tek: durumunu tanımla."
             />
           </HeadingSystem>
@@ -242,7 +241,6 @@ export default function HomePage() {
           >
             <CtaCluster
               primary={{ href: "/test", label: "Testi Aç", tone: "primary" }}
-              secondary={{ href: "/sistem", label: "Sistemi Oku", tone: "secondary" }}
               hint="Belirsizliği uzatma."
               tone="light"
             />

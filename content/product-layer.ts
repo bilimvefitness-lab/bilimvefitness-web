@@ -69,7 +69,7 @@ export const bookPageContent = {
       "Sistem sayfası çerçeveyi kurar. Test seni yerine yerleştirir. Kitap ise o çerçeveyi elde tutulur bir uygulama düzenine indirir.",
     primaryCommand: {
       href: "/test",
-      label: "Kitap Yolunu Netleştir",
+      label: "Ön Sipariş / Bilgi Al",
     },
     secondaryCommand: {
       href: "/sistem",
@@ -193,6 +193,10 @@ export const bookPageContent = {
     helperText:
       "Bu alan bulten icin degil; kitap katmanina ne zaman donecegini ve neden dondugunu kaybetmemen icin hazirlandi.",
     inputPlaceholder: "Kitap rotani gonderecegimiz e-posta",
+    successNextStep: {
+      label: "Sıradaki iş: Durumunu test ile doğrula",
+      href: "/test",
+    },
   } satisfies ContinuationSection,
   finalCta: {
     title: "Kitap dogruysa, bir sonraki mantikli katman budur.",
@@ -200,7 +204,7 @@ export const bookPageContent = {
       "Eger ihtiyacin daha fazla girdi degil daha temiz bir kurulumsa, rotani simdi netlestir. Daginik baslangic sonra daha pahaliya mal olur.",
     command: {
       href: "/test",
-      label: "Kitap Yolunu Simdi Netlestir",
+      label: "Ön Sipariş Yoluna Gir",
     },
   },
 };
@@ -217,7 +221,7 @@ export const appPageContent = {
       "Test seni tanır. Kitap temeli kurar. Uygulama ise günlük tekrar, geri dönüş ve davranış sürekliliğini taşır. Bu katman herkese aynı anda açılmayacak.",
     primaryCommand: {
       href: "/uygulama#erken-erisim",
-      label: "Erken Erişim Yerini Koru",
+      label: "Erken Erişime Katıl",
     },
     secondaryCommand: {
       href: "/test",
@@ -324,6 +328,10 @@ export const appPageContent = {
     helperText:
       "Bu alan haber bülteni için değil; uygulama katmanı açıldığında bağlamını kaybetmeden geri dönmen için hazırlandı.",
     inputPlaceholder: "Erken erişim sıranı göndereceğimiz e-posta",
+    successNextStep: {
+      label: "Sıradaki iş: Sistemi ve öncelikleri oku",
+      href: "/sistem",
+    },
     submitEventName: "uygulama_waitlist_click",
     submitEventPayload: {
       location: "uygulama_waitlist_form",

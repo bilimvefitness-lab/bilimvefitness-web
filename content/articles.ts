@@ -787,5 +787,11 @@ export function buildArticleContinuationConfig(article: AuthorityArticle): Conti
         : article.continuationTarget === "sistem"
           ? "Sistem notunu göndereceğimiz e-posta"
           : "Karar notunu göndereceğimiz e-posta",
+    successNextStep:
+      article.continuationTarget === "test"
+        ? { label: "Sıradaki iş: Tanı katmanına (Test) git", href: "/test" }
+        : article.continuationTarget === "sistem"
+          ? { label: "Sıradaki iş: Sistem omurgasını oku", href: "/sistem" }
+          : { label: "Diğer yazıları incele", href: "/yazilar" },
   };
 }

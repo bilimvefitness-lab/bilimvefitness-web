@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getSiteUrl, siteName } from "@/lib/site";
 
 const defaultDescription =
-  "Bilim ve Fitness; bilimsel netlik, premium yapı ve uzun vadeli dönüşüm üzerine kurulu modern fitness ekosistemidir.";
+  "Bilim ve Fitness; 40.000'den fazla üyeye hizmet veren; bilimsel netlik, premium yapı ve uzun vadeli dönüşüm üzerine kurulu modern fitness ekosistemidir.";
 
 export function buildMetadata({
   title,

@@ -12,6 +12,10 @@ export type ContinuationConfig = {
   inputPlaceholder: string;
   submitEventName?: AnalyticsEventName;
   submitEventPayload?: AnalyticsPayload;
+  successNextStep?: {
+    label: string;
+    href: string;
+  };
 };
 
 export type RouteRecommendation = {
